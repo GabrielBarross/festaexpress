@@ -25,3 +25,6 @@
   padding:0;
   margin:0;
 }
+.headerRowContainer{
+  justify-content: center;
+}
