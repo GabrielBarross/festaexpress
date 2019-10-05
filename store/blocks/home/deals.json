@@ -1,0 +1,105 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals5",
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "Frete Grátis<br>Consulte Condições",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "10% de desconto<br>nas compras acima de R$ 299",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "Retirada na<br>Loja Física",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "Atendimento:<br>(11) 94940-8882",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals5": {
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "image#deal5": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "maxHeight": "24px"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "Vendas por atacado",
+      "blockClass": "deals"
+    }
+  }
+}

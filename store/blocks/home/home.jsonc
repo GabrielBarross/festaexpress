@@ -1,0 +1,79 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      "flex-layout.row#deals",
+      "shelf#home",
+      "newsletter"
+    ]
+  },
+
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "banners": [
+        {
+          "image": "https://festaexpress.vteximg.com.br/arquivos/banner-liga.png",
+          "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/banner-liga.png"
+        },
+        {
+          "image": "https://festaexpress.vteximg.com.br/arquivos/banner-lucas.png",
+          "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/banner-lucas.png"
+        }
+      ],
+      "height": 450,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top sellers"
+      }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-add-to-list-button",
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "product-summary-buy-button"
+    ]
+  },
+
+  "product-summary#home": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": true,
+      "badgeText": "OFF",
+      "buyButtonText": "Add to cart",
+      "displayBuyButton": "displayButtonAlways",
+      "showCollections": false,
+      "showListPrice": true,
+      "labelSellingPrice": "To",
+      "labelListPrice": "From",
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true,
+      "name": {
+        "showBrandName": true,
+        "showSku": true,
+        "showProductReference": true
+      }
+    }
+  }
+}

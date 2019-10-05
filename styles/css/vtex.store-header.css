@@ -1,0 +1,27 @@
+.headerRow--main-header .headerRowBackground {
+  background-color: #F0F0F0;
+}
+
+.headerRowBackground :global(.vtex-menu-2-x-styledLink),
+.headerRowBackground,
+.headerRowBackground :global(.vtex-rich-text-0-x-container),
+.headerRowBackground :global(.vtex-rich-text-0-x-link),
+.headerRowBackground :global(.vtex-login-2-x-label){
+  color:#fff;
+  font-size:14px;
+  text-decoration:none;
+  text-transform: initial;
+  padding-right: 5px;
+  display: block;
+}
+.headerRowBackground :global(.vtex-rich-text-0-x-paragraph){
+  line-height:1;
+}
+.headerRow--main-header-mobile .headerRowBackground {
+  padding: 10px 0;
+  background-color: #F0F0F0;
+}
+.headerRowBackground :global(.vtex-menu-2-x-styledLinkContainer){
+  padding:0;
+  margin:0;
+}

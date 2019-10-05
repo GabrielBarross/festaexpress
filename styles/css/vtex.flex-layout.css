@@ -1,0 +1,47 @@
+.flexRow--deals {
+  background-color: #7EC200;
+  padding: 5px 0;
+}
+.flexColChild{
+  height:auto !important;
+}
+.flexRow--inverted{
+  background:#f39200;
+  margin:10px 0;
+  padding:10px 0;
+}
+.flexRow--inverted :global(.vtex-rich-text-0-x-paragraph){
+  color:#fff;
+}
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}

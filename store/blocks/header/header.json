@@ -1,0 +1,139 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+
+  "header-row#1-desktop": {
+    "children": [
+      "login",
+      "rich-text#orders",
+      "header-spacer",
+      "vtex.menu@2.x:menu#websites",
+      "rich-text#topbar"
+    ],
+    "props":{
+      "inverted":"true"
+    }
+  },
+  "rich-text#orders": {
+    "props": {
+      "text": "[Meus Pedidos](/account#/orders)"
+    }
+  },
+  "rich-text#topbar": {
+    "props": {
+      "text": " (11) 3312-6600"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "blockClass": "menu-link"
+    }
+  },
+  "search-bar":{
+    "props":{
+      "blockClass": "search-bar"
+    }
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://festaexpress.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___6151bcfe416bd248d57e425384334e5a.png",
+      "width": "180"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "IR PARA O CARRINHO",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#festa-tematica",
+      "menu-item#artigos-festa",
+      "menu-item#baloes-bexigas"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}

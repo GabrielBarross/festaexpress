@@ -1,0 +1,391 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#festa-tematica",
+      "menu-item#artigos-festa",
+      "menu-item#baloes-bexigas",
+      "menu-item#cha-de-bebe",
+      "menu-item#confeitaria",
+      "menu-item#decoracao",
+      "menu-item#descartaveis",
+      "menu-item#festa-infantil",
+      "menu-item#guloseimas",
+      "menu-item#lembrancinhas"
+    ]
+  },
+  "menu-item#festa-tematica": {
+    "props": {
+      "id": "menu-item-festa-tematica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": true,
+        "tagTitle": "Festa Temática",
+        "text": "Festa Temática"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#festa-tematica"
+    ]
+  },
+  "vtex.menu@2.x:submenu#festa-tematica": {
+    "children": [
+      "vtex.menu@2.x:menu#festa-tematica"
+    ]
+  },
+  "vtex.menu@2.x:menu#festa-tematica": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#festa-halloween": {
+    "props": {
+      "id": "menu-item-festa-halloween",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/hats/",
+        "noFollow": true,
+        "tagTitle": "Festa Halloween",
+        "text": "Festa Halloween"
+      }
+    }
+  },
+  "menu-item#festa-pet-shop": {
+    "props": {
+      "id": "menu-item-festa-pet-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/shoes/",
+        "noFollow": true,
+        "tagTitle": "Festa Pet Shop",
+        "text": "Festa Pet Shop"
+      }
+    }
+  },
+  "menu-item#festa-boteco": {
+    "props": {
+      "id": "menu-item-festa-boteco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/bags/",
+        "noFollow": true,
+        "tagTitle": "Festa Boteco",
+        "text": "Festa Boteco"
+      }
+    }
+  },
+  "menu-item#artigos-festa": {
+    "props": {
+      "id": "menu-item-artigos-festa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": true,
+        "tagTitle": "Artigos de Festa",
+        "text": "Artigos de Festa"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#artigos-festa"
+    ]
+  },
+  "vtex.menu@2.x:submenu#artigos-festa": {
+    "children": [
+      "vtex.menu@2.x:menu#artigos-festa"
+    ]
+  },
+  "vtex.menu@2.x:menu#artigos-festa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#baloes-bexigas": {
+    "props": {
+      "id": "menu-item-baloes-bexigas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Balões e Bexigas",
+        "text": "Balões e Bexigas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#baloes-bexigas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#baloes-bexigas": {
+    "children": [
+      "vtex.menu@2.x:menu#baloes-bexigas"
+    ]
+  },
+  "vtex.menu@2.x:menu#baloes-bexigas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#cha-de-bebe": {
+    "props": {
+      "id": "menu-item-cha-de-bebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Chá de Bebê",
+        "text": "Chá de Bebê"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#cha-de-bebe"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cha-de-bebe": {
+    "children": [
+      "vtex.menu@2.x:menu#cha-de-bebe"
+    ]
+  },
+  "vtex.menu@2.x:menu#cha-de-bebe": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#confeitaria": {
+    "props": {
+      "id": "menu-item-confeitaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Confeitaria",
+        "text": "Confeitaria"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#confeitaria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#confeitaria": {
+    "children": [
+      "vtex.menu@2.x:menu#confeitaria"
+    ]
+  },
+  "vtex.menu@2.x:menu#confeitaria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#decoracao": {
+    "props": {
+      "id": "menu-item-decoracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Decoração",
+        "text": "Decoração"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#decoracao"
+    ]
+  },
+  "vtex.menu@2.x:submenu#decoracao": {
+    "children": [
+      "vtex.menu@2.x:menu#decoracao"
+    ]
+  },
+  "vtex.menu@2.x:menu#decoracao": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#descartaveis": {
+    "props": {
+      "id": "menu-item-descartaveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Descartáveis",
+        "text": "Descartáveis"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#descartaveis"
+    ]
+  },
+  "vtex.menu@2.x:submenu#descartaveis": {
+    "children": [
+      "vtex.menu@2.x:menu#descartaveis"
+    ]
+  },
+  "vtex.menu@2.x:menu#descartaveis": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#festa-infantil": {
+    "props": {
+      "id": "menu-item-festa-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Festa Infantil",
+        "text": "Festa Infantil"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#festa-infantil"
+    ]
+  },
+  "vtex.menu@2.x:submenu#festa-infantil": {
+    "children": [
+      "vtex.menu@2.x:menu#festa-infantil"
+    ]
+  },
+  "vtex.menu@2.x:menu#festa-infantil": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#guloseimas": {
+    "props": {
+      "id": "menu-item-guloseimas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Guloseimas",
+        "text": "Guloseimas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#guloseimas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#guloseimas": {
+    "children": [
+      "vtex.menu@2.x:menu#guloseimas"
+    ]
+  },
+  "vtex.menu@2.x:menu#guloseimas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  },
+  "menu-item#lembrancinhas": {
+    "props": {
+      "id": "menu-item-lembrancinhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/d",
+        "noFollow": true,
+        "tagTitle": "Lembrancinhas",
+        "text": "Lembrancinhas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#lembrancinhas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#lembrancinhas": {
+    "children": [
+      "vtex.menu@2.x:menu#lembrancinhas"
+    ]
+  },
+  "vtex.menu@2.x:menu#lembrancinhas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festa-halloween",
+      "menu-item#festa-pet-shop",
+      "menu-item#festa-boteco"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "store.custom#empresa": {
+    "path": "/empresa"
+  },
+  "store.custom#duvidas": {
+    "path": "/duvidas"
+  },
+  "store.custom#lojafisica": {
+    "path": "/lojafisica"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#cadastro",
+      "menu-item#empresa",
+      "menu-item#duvidas",
+      "menu-item#lojafisica"
+    ]
+  },
+  "menu-item#cadastro": {
+    "props": {
+      "id": "menu-item-cadastro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": false,
+        "tagTitle": "Meu Cadastro",
+        "text": " Meu Cadastro | "
+      }
+    }
+  },
+  "menu-item#empresa": {
+    "props": {
+      "id": "menu-item-empresa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/empresa",
+        "noFollow": false,
+        "tagTitle": "Empresa",
+        "text": " Empresa | "
+      }
+    }
+  },
+  "menu-item#duvidas": {
+    "props": {
+      "id": "menu-item-duvidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas",
+        "noFollow": false,
+        "tagTitle": "Dúvidas",
+        "text": " Dúvidas | "
+      }
+    }
+  },
+  "menu-item#lojafisica": {
+    "props": {
+      "id": "menu-item-lojafisica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lojafisica",
+        "noFollow": false,
+        "tagTitle": "Loja Física",
+        "text": " Loja Física | "
+      }
+    }
+  }
+}

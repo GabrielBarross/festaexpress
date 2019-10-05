@@ -1,0 +1,198 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-3-desktop"
+    ]
+  },
+  "flex-layout.col#footer-1-desktop":{
+    "children":[
+      "flex-layout.row#sub-footer-1-desktop",
+      "flex-layout.row#sub-footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#sub-footer-1-desktop":{
+    "children":[
+      "rich-text#titulo1"
+    ]
+  },
+  "flex-layout.row#sub-footer-2-desktop":{
+    "children":[
+      "flex-layout.col#sub-footer-1-desktop",
+      "flex-layout.col#sub-footer-2-desktop"
+    ]
+  },
+  "rich-text#titulo1": {
+    "props": {
+      "text": "#### Institucional"
+    }
+  },
+  "flex-layout.col#sub-footer-1-desktop":{
+    "children":[
+      "vtex.menu@2.x:menu#institucional1"
+    ]
+  },
+  "flex-layout.col#sub-footer-2-desktop":{
+    "children":[
+      "vtex.menu@2.x:menu#institucional2"
+    ]
+  },
+  "flex-layout.col#footer-2-desktop":{
+    "children":[
+      "rich-text#titulo2",
+      "accepted-payment-methods"
+    ]
+  },
+  "rich-text#titulo2": {
+    "props": {
+      "text": "#### Formas de Pagamento"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
+    }
+  },
+  "flex-layout.col#footer-3-desktop":{
+    "children":[
+      "rich-text#page-facebook"
+    ]
+  },
+  "rich-text#page-facebook": {
+    "props": {
+      "text": ".<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFestaExpress%2F&tabs=exemplo&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1126797967420050' width='340' height='214' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-4-desktop",
+      "flex-layout.col#footer-5-desktop"
+    ],
+    "props":{
+      "blockClass":"inverted"
+    }
+  },
+  "flex-layout.col#footer-4-desktop":{
+    "children": [
+      "rich-text#social",
+      "social-networks"
+    ]
+  },
+  "rich-text#social":{
+    "props": {
+      "text": "Redes Sociais"
+    }
+  },
+  "flex-layout.col#footer-5-desktop":{
+    "children": [
+      "rich-text#atendimento"
+    ]
+  },
+  "rich-text#atendimento":{
+    "props": {
+      "text": "Central de Atendimento: (11) 3312-6600<br>Segunda a Sexta das 8h às 17h30 | Sábados das 8h às 13h"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/FestaExpress"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/festaexpress"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/FestaExpress"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/festaexpress/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-7-desktop"
+    ]
+  },
+  "flex-layout.col#footer-6-desktop":{
+    "children": [
+      "rich-text#footer"
+    ]
+  },
+  "flex-layout.col#footer-7-desktop":{
+    "children": [
+      "rich-text#vtex"
+    ]
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "GMR - NOVA ERA ARTIGOS PARA FESTA EIRELI / CNPJ 07.609.208/0001-51<br>Av. Das Cerejeiras, 545 - Vila Maria, São Paulo - SP - CEP: 02124-000<br>Preços e condições de pagamento exclusivos para compras via internet. / 2008-2019"
+    }
+  },
+  "rich-text#vtex": {
+    "props": {
+      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-logo.png 'VTEX')](https://vtex.com/)"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "GMR - NOVA ERA ARTIGOS PARA FESTA EIRELI / CNPJ 07.609.208/0001-51 / Av. Das Cerejeiras, 545 - Vila Maria, São Paulo - SP - CEP: 02124-000 / Preços e condições de pagamento exclusivos para compras via internet. 2008-2019",
+      "blockClass": "footer"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.container{
+    background-image: url(https://festaexpress.vteximg.com.br/arquivos/cart-header.jpg);
+    width: 217px;
+    background-repeat: no-repeat;
+    margin-left:1rem;
+ }
+ .badge{
+    font-size: 14px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    left: 30px;
+    top: 2px;
+ }
+ .badge::after{
+    content: "Iten(s)"
+ }
+ .container svg{
+    display: none;
+ }
+ .container button{
+     width:217px;
+ }
+
+ @media only screen and (max-width: 640px) {
+    .badge::after{
+        display: none;
+    }
+    .badge{
+        font-size: 14px;
+        background-color: #000;
+        color: #fff;
+        left: 16px;
+        top: -10px;
+    }
+    .container{
+        background-image: none;
+        width: 100px;
+    }
+    .container svg{
+        display: flex;
+        color: #000;
+    }
+ }
