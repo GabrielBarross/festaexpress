@@ -4,3 +4,9 @@
 .arrowUp{
     left:62px;
 }
+.contentForm{
+    width:23rem;
+}
+.button:hover{
+    background:#f39200;
+}

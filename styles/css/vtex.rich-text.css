@@ -50,14 +50,17 @@
   font-weight: 300;
   color: #03034E;
 }
-
+.link{
+  color:#fff;
+  text-decoration:none;
+}
 .container--title {
   color: #03034E;
   font-size: 28px;
   font-weight: 700;
 }
 .heading-level-4{
-  margin:20px 0;
+  margin:10px 0;
 }
 
 @media only screen and (min-width: 640px) {

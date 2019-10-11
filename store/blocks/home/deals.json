@@ -62,7 +62,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Retirada na<br>Loja Física",
+      "text": "[Retirada na<br>Loja Física](/lojafisica)",
       "blockClass": "deals"
     }
   },

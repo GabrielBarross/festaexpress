@@ -1,7 +1,3 @@
-.headerRow--main-header .headerRowBackground {
-  background-color: #F0F0F0;
-}
-
 .headerRowBackground :global(.vtex-menu-2-x-styledLink),
 .headerRowBackground,
 .headerRowBackground :global(.vtex-rich-text-0-x-container),

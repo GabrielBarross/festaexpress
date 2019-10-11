@@ -3,7 +3,15 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#deals",
-      "shelf#home",
+      "shelf#home1",
+      "flex-layout.row#banner1",
+      "shelf#home2",
+      "flex-layout.row#banner2",
+      "shelf#home3",
+      "flex-layout.row#banner3",
+      "shelf#home4",
+      "flex-layout.row#banner4",
+      "shelf#home5",
       "newsletter"
     ]
   },
@@ -27,7 +35,7 @@
     }
   },
 
-  "shelf#home": {
+  "shelf#home1": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -38,7 +46,67 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Festa Halloween"
+      }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "LIQUIDAFEST - Até 80% de desconto!"
+      }
+    }
+  },
+  "shelf#home3": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Festa Temática Naruto"
+      }
+    }
+  },
+  "shelf#home4": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Bexigas e Balões"
+      }
+    }
+  },
+  "shelf#home5": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Guloseimas e Doces"
       }
     }
   },
@@ -54,26 +122,48 @@
       "product-summary-buy-button"
     ]
   },
-
-  "product-summary#home": {
-    "props": {
-      "isOneClickBuy": false,
-      "showBadge": true,
-      "badgeText": "OFF",
-      "buyButtonText": "Add to cart",
-      "displayBuyButton": "displayButtonAlways",
-      "showCollections": false,
-      "showListPrice": true,
-      "labelSellingPrice": "To",
-      "labelListPrice": "From",
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "name": {
-        "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
-      }
+  "flex-layout.row#banner1":{
+    "children":[
+      "image#image-banner1"
+    ]
+  },
+  "image#image-banner1":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
+      "alt":"Uglydolls"
+    }
+  },
+  "flex-layout.row#banner2":{
+    "children":[
+      "image#image-banner2"
+    ]
+  },
+  "image#image-banner2":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
+      "alt":"Neon e Piscas"
+    }
+  },
+  "flex-layout.row#banner3":{
+    "children":[
+      "image#image-banner3"
+    ]
+  },
+  "image#image-banner3":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
+      "alt":"Chuva de Amor"
+    }
+  },
+  "flex-layout.row#banner4":{
+    "children":[
+      "image#image-banner4"
+    ]
+  },
+  "image#image-banner4":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
+      "alt":"Descartáveis de Luxo"
     }
   }
 }
