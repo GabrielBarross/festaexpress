@@ -13,6 +13,7 @@
       "menu-item#lembrancinhas"
     ]
   },
+
   "menu-item#festa-tematica": {
     "props": {
       "id": "menu-item-festa-tematica",
@@ -21,8 +22,8 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": true,
+        "href": "/festas-tematicas",
+        "noFollow": false,
         "tagTitle": "Festa Temática",
         "text": "Festa Temática"
       }
@@ -43,7 +44,16 @@
     "children": [
       "menu-item#festa-halloween",
       "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#festa-cores",
+      "menu-item#festa-playstation",
+      "menu-item#festa-boteco",
+      "menu-item#festa-vegas",
+      "menu-item#festa-country",
+      "menu-item#festa-balada",
+      "menu-item#festa-neon",
+      "menu-item#festa-naruto",
+      "menu-item#festa-fazendinha",
+      "menu-item#festa-liquidacao"
     ]
   },
   "menu-item#festa-halloween": {
@@ -54,8 +64,8 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/hats/",
-        "noFollow": true,
+        "href": "/datas-comemorativas/halloween",
+        "noFollow": false,
         "tagTitle": "Festa Halloween",
         "text": "Festa Halloween"
       }
@@ -69,10 +79,40 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/shoes/",
-        "noFollow": true,
+        "href": "/festas-tematicas/pet-shop",
+        "noFollow": false,
         "tagTitle": "Festa Pet Shop",
         "text": "Festa Pet Shop"
+      }
+    }
+  },
+  "menu-item#festa-cores": {
+    "props": {
+      "id": "menu-item-festa-cores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas/festa-cores",
+        "noFollow": false,
+        "tagTitle": "Festa Cores",
+        "text": "Festa Cores"
+      }
+    }
+  },
+  "menu-item#festa-playstation": {
+    "props": {
+      "id": "menu-item-festa-playstation",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas/festa-play-station",
+        "noFollow": false,
+        "tagTitle": "Festa Playstation",
+        "text": "Festa Playstation"
       }
     }
   },
@@ -84,13 +124,119 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/bags/",
-        "noFollow": true,
+        "href": "/festas-tematicas/festa-boteco",
+        "noFollow": false,
         "tagTitle": "Festa Boteco",
         "text": "Festa Boteco"
       }
     }
   },
+  "menu-item#festa-vegas": {
+    "props": {
+      "id": "menu-item-festa-vegas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas/festa-vegas",
+        "noFollow": false,
+        "tagTitle": "Festa Vegas",
+        "text": "Festa Vegas"
+      }
+    }
+  },
+  "menu-item#festa-country": {
+    "props": {
+      "id": "menu-item-festa-country",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas/festa-country",
+        "noFollow": false,
+        "tagTitle": "Festa Country",
+        "text": "Festa Country"
+      }
+    }
+  },
+  "menu-item#festa-balada": {
+    "props": {
+      "id": "menu-item-festa-balada",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas/festa-balada",
+        "noFollow": false,
+        "tagTitle": "Festa Balada",
+        "text": "Festa Balada"
+      }
+    }
+  },
+  "menu-item#festa-neon": {
+    "props": {
+      "id": "menu-item-festa-neon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/neon-e-piscas",
+        "noFollow": false,
+        "tagTitle": "Festa Neon",
+        "text": "Festa Neon"
+      }
+    }
+  },
+  "menu-item#festa-naruto": {
+    "props": {
+      "id": "menu-item-festa-naruto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/meninos/festa-naruto",
+        "noFollow": false,
+        "tagTitle": "Festa Naruto",
+        "text": "Festa Naruto"
+      }
+    }
+  },
+  "menu-item#festa-fazendinha": {
+    "props": {
+      "id": "menu-item-festa-fazendinha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/baby/fazendinha",
+        "noFollow": false,
+        "tagTitle": "Festa Fazendinha",
+        "text": "Festa Fazendinha"
+      }
+    }
+  },
+  "menu-item#festa-liquidacao": {
+    "props": {
+      "id": "menu-item-festa-liquidacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/liquidafest",
+        "noFollow": false,
+        "tagTitle": "Festa Liquidação",
+        "text": "Festa Liquidação"
+      }
+    }
+  },
+
   "menu-item#artigos-festa": {
     "props": {
       "id": "menu-item-artigos-festa",
@@ -99,8 +245,8 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": true,
+        "href": "/artigos-para-festa",
+        "noFollow": false,
         "tagTitle": "Artigos de Festa",
         "text": "Artigos de Festa"
       }
@@ -119,11 +265,169 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#festa-halloween",
-      "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#chapeus-cartolas",
+      "menu-item#gravatas",
+      "menu-item#mascaras",
+      "menu-item#oculos",
+      "menu-item#plaquinhas",
+      "menu-item#colares",
+      "menu-item#marabus-boas",
+      "menu-item#neon-piscas",
+      "menu-item#perucas",
+      "menu-item#tiaras"
     ]
   },
+  "menu-item#chapeus-cartolas": {
+    "props": {
+      "id": "menu-item-chapeus-cartolas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/chapeus-e-cartolas",
+        "noFollow": false,
+        "tagTitle": "Chapéus e Cartolas",
+        "text": "Chapéus e Cartolas"
+      }
+    }
+  },
+  "menu-item#gravatas": {
+    "props": {
+      "id": "menu-item-gravatas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/gravatas",
+        "noFollow": false,
+        "tagTitle": "Gravatas",
+        "text": "Gravatas"
+      }
+    }
+  },
+  "menu-item#mascaras": {
+    "props": {
+      "id": "menu-item-mascaras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/mascaras",
+        "noFollow": false,
+        "tagTitle": "Máscaras",
+        "text": "Máscaras"
+      }
+    }
+  },
+  "menu-item#oculos": {
+    "props": {
+      "id": "menu-item-oculos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/oculos",
+        "noFollow": false,
+        "tagTitle": "Óculos",
+        "text": "Óculos"
+      }
+    }
+  },
+  "menu-item#plaquinhas": {
+    "props": {
+      "id": "menu-item-plaquinhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/plaquinha-de-festa",
+        "noFollow": false,
+        "tagTitle": "Plaquinhas de Festa",
+        "text": "Plaquinhas de Festa"
+      }
+    }
+  },
+  "menu-item#colares": {
+    "props": {
+      "id": "menu-item-colares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/colares",
+        "noFollow": false,
+        "tagTitle": "Colares",
+        "text": "Colares"
+      }
+    }
+  },
+  "menu-item#marabus-boas": {
+    "props": {
+      "id": "menu-item-marabus-boas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/marabus-e-boas",
+        "noFollow": false,
+        "tagTitle": "Marabus e Boás",
+        "text": "Marabus e Boás"
+      }
+    }
+  },
+  "menu-item#neon-piscas": {
+    "props": {
+      "id": "menu-item-neon-piscas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/neon-e-piscas",
+        "noFollow": false,
+        "tagTitle": "Neon e Piscas",
+        "text": "Neon e Piscas"
+      }
+    }
+  },
+  "menu-item#perucas": {
+    "props": {
+      "id": "menu-item-perucas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/perucas",
+        "noFollow": false,
+        "tagTitle": "Perucas",
+        "text": "Perucas"
+      }
+    }
+  },
+  "menu-item#tiaras": {
+    "props": {
+      "id": "menu-item-tiaras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa/tiaras",
+        "noFollow": false,
+        "tagTitle": "Tiaras",
+        "text": "Tiaras"
+      }
+    }
+  },
+
   "menu-item#baloes-bexigas": {
     "props": {
       "id": "menu-item-baloes-bexigas",
@@ -132,7 +436,7 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/d",
+        "href": "/bexigas-e-baloes",
         "noFollow": true,
         "tagTitle": "Balões e Bexigas",
         "text": "Balões e Bexigas"
@@ -152,11 +456,89 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#festa-halloween",
-      "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#acessorios-baloes",
+      "menu-item#baloes-metalizados",
+      "menu-item#baloes-letra",
+      "menu-item#baloes-latex",
+      "menu-item#baloes-numero"
     ]
   },
+  "menu-item#acessorios-baloes": {
+    "props": {
+      "id": "menu-item-acessorios-baloes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes/acessorios-para-baloes",
+        "noFollow": false,
+        "tagTitle": "Acessórios para Balões",
+        "text": "Acessórios para Balões"
+      }
+    }
+  },
+  "menu-item#baloes-metalizados": {
+    "props": {
+      "id": "menu-item-baloes-metalizados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes/baloes-metalizados",
+        "noFollow": false,
+        "tagTitle": "Balões Metalizados",
+        "text": "Balões Metalizados"
+      }
+    }
+  },
+  "menu-item#baloes-letra": {
+    "props": {
+      "id": "menu-item-baloes-letra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes/balao-de-letra-metalizado",
+        "noFollow": false,
+        "tagTitle": "Balões Letras Metalizadas",
+        "text": "Balões Letras Metalizadas"
+      }
+    }
+  },
+  "menu-item#baloes-latex": {
+    "props": {
+      "id": "menu-item-baloes-latex",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes/baloes-de-latex",
+        "noFollow": false,
+        "tagTitle": "Balões de Látex",
+        "text": "Balões de Látex"
+      }
+    }
+  },
+  "menu-item#baloes-numero": {
+    "props": {
+      "id": "menu-item-baloes-numero",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes/balao-de-numero-metalizado",
+        "noFollow": false,
+        "tagTitle": "Balões Números Metalizados",
+        "text": "Balões Números Metalizados"
+      }
+    }
+  },
+
   "menu-item#cha-de-bebe": {
     "props": {
       "id": "menu-item-cha-de-bebe",
@@ -165,7 +547,7 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/d",
+        "href": "/cha-de-bebe",
         "noFollow": true,
         "tagTitle": "Chá de Bebê",
         "text": "Chá de Bebê"
@@ -185,11 +567,137 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#festa-halloween",
-      "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#convite-chadebebe",
+      "menu-item#lembrancinhas-chadebebe",
+      "menu-item#chadebebe-azul",
+      "menu-item#fisherprice-azul",
+      "menu-item#batizado",
+      "menu-item#cha-de-revelacao",
+      "menu-item#chadebebe-rosa",
+      "menu-item#fisherprice-rosa"
     ]
   },
+  "menu-item#convite-chadebebe": {
+    "props": {
+      "id": "menu-item-convite-chadebebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/convite-cha-de-bebe",
+        "noFollow": false,
+        "tagTitle": "Convite Chá de Bebê",
+        "text": "Convite Chá de Bebê"
+      }
+    }
+  },
+  "menu-item#lembrancinhas-chadebebe": {
+    "props": {
+      "id": "menu-item-lembrancinhas-chadebebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/lembrancinhas-cha-de-bebe",
+        "noFollow": false,
+        "tagTitle": "Lembrancinhas Chá de Bebê",
+        "text": "Lembrancinhas Chá de Bebê"
+      }
+    }
+  },
+  "menu-item#chadebebe-azul": {
+    "props": {
+      "id": "menu-item-chadebebe-azul",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/cha-de-bebe-azul",
+        "noFollow": false,
+        "tagTitle": "Chá de Bebê Azul",
+        "text": "Chá de Bebê Azul"
+      }
+    }
+  },
+  "menu-item#fisherprice-azul": {
+    "props": {
+      "id": "menu-item-fisherprice-azul",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/fisher-price-azul",
+        "noFollow": false,
+        "tagTitle": "Fisher Price Azul",
+        "text": "Fisher Price Azul"
+      }
+    }
+  },
+  "menu-item#batizado": {
+    "props": {
+      "id": "menu-item-batizado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/batizado",
+        "noFollow": false,
+        "tagTitle": "Batizado",
+        "text": "Batizado"
+      }
+    }
+  },
+  "menu-item#cha-de-revelacao": {
+    "props": {
+      "id": "menu-item-cha-de-revelacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/cha-de-revelacao",
+        "noFollow": false,
+        "tagTitle": "Chá de Revelação",
+        "text": "Chá de Revelação"
+      }
+    }
+  },
+  "menu-item#chadebebe-rosa": {
+    "props": {
+      "id": "menu-item-chadebebe-rosa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/cha-de-bebe-rosa",
+        "noFollow": false,
+        "tagTitle": "Chá de Bebê Rosa",
+        "text": "Chá de Bebê Rosa"
+      }
+    }
+  },
+  "menu-item#fisherprice-rosa": {
+    "props": {
+      "id": "menu-item-fisherprice-rosa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe/fisher-price-rosa",
+        "noFollow": false,
+        "tagTitle": "Fisher Price Rosa",
+        "text": "Fisher Price Rosa"
+      }
+    }
+  },
+
   "menu-item#confeitaria": {
     "props": {
       "id": "menu-item-confeitaria",
@@ -198,8 +706,8 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/d",
-        "noFollow": true,
+        "href": "/confeitaria",
+        "noFollow": false,
         "tagTitle": "Confeitaria",
         "text": "Confeitaria"
       }
@@ -218,11 +726,89 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#festa-halloween",
-      "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#cortadores",
+      "menu-item#granulados-confeitos",
+      "menu-item#recheios-coberturas",
+      "menu-item#formas",
+      "menu-item#papel-arroz"
     ]
   },
+  "menu-item#cortadores": {
+    "props": {
+      "id": "menu-item-cortadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria/cortadores",
+        "noFollow": false,
+        "tagTitle": "Cortadores",
+        "text": "Cortadores"
+      }
+    }
+  },
+  "menu-item#granulados-confeitos": {
+    "props": {
+      "id": "menu-item-granulados-confeitos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria/granulados-e-confeitos",
+        "noFollow": false,
+        "tagTitle": "Granulados e Confeitos",
+        "text": "Granulados e Confeitos"
+      }
+    }
+  },
+  "menu-item#recheios-coberturas": {
+    "props": {
+      "id": "menu-item-recheios-coberturas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria/recheios-e-coberturas",
+        "noFollow": false,
+        "tagTitle": "Recheios e Coberturas",
+        "text": "Recheios e Coberturas"
+      }
+    }
+  },
+  "menu-item#formas": {
+    "props": {
+      "id": "menu-item-formas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria/formas",
+        "noFollow": false,
+        "tagTitle": "Formas",
+        "text": "Formas"
+      }
+    }
+  },
+  "menu-item#papel-arroz": {
+    "props": {
+      "id": "menu-item-papel-arroz",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria/papel-arroz",
+        "noFollow": false,
+        "tagTitle": "Papel Arroz",
+        "text": "Papel Arroz"
+      }
+    }
+  },
+
   "menu-item#decoracao": {
     "props": {
       "id": "menu-item-decoracao",
@@ -231,8 +817,8 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/d",
-        "noFollow": true,
+        "href": "/decoracao-de-festa",
+        "noFollow": false,
         "tagTitle": "Decoração",
         "text": "Decoração"
       }
@@ -251,11 +837,121 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#festa-halloween",
-      "menu-item#festa-pet-shop",
-      "menu-item#festa-boteco"
+      "menu-item#decoracao-mesa",
+      "menu-item#lousinhas",
+      "menu-item#painel-eva",
+      "menu-item#velas-aniversario",
+      "menu-item#enfeite-pendurar",
+      "menu-item#mdf",
+      "menu-item#papelaria"
     ]
   },
+  "menu-item#decoracao-mesa": {
+    "props": {
+      "id": "menu-item-decoracao-mesa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/decoracao-de-mesa",
+        "noFollow": false,
+        "tagTitle": "Decoração de Mesa",
+        "text": "Decoração de Mesa"
+      }
+    }
+  },
+  "menu-item#lousinhas": {
+    "props": {
+      "id": "menu-item-lousinhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/lousinhas",
+        "noFollow": false,
+        "tagTitle": "Lousinhas",
+        "text": "Lousinhas"
+      }
+    }
+  },
+  "menu-item#painel-eva": {
+    "props": {
+      "id": "menu-item-painel-eva",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/eva",
+        "noFollow": false,
+        "tagTitle": "Painel de EVA",
+        "text": "Painel de EVA"
+      }
+    }
+  },
+  "menu-item#velas-aniversario": {
+    "props": {
+      "id": "menu-item-velas-aniversario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/descartaveis/velas-de-aniversario",
+        "noFollow": false,
+        "tagTitle": "Velas de Aniversário",
+        "text": "Velas de Aniversário"
+      }
+    }
+  },
+  "menu-item#enfeite-pendurar": {
+    "props": {
+      "id": "menu-item-enfeite-pendurar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/enfeites-de-pendurar",
+        "noFollow": false,
+        "tagTitle": "Enfeites de Pendurar",
+        "text": "Enfeites de Pendurar"
+      }
+    }
+  },
+  "menu-item#mdf": {
+    "props": {
+      "id": "menu-item-mdf",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/mdf",
+        "noFollow": false,
+        "tagTitle": "MDF",
+        "text": "MDF"
+      }
+    }
+  },
+  "menu-item#papelaria": {
+    "props": {
+      "id": "menu-item-papelaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa/papelaria",
+        "noFollow": false,
+        "tagTitle": "Papelaria",
+        "text": "Papelaria"
+      }
+    }
+  },
+
   "menu-item#descartaveis": {
     "props": {
       "id": "menu-item-descartaveis",
@@ -289,6 +985,7 @@
       "menu-item#festa-boteco"
     ]
   },
+
   "menu-item#festa-infantil": {
     "props": {
       "id": "menu-item-festa-infantil",
@@ -322,6 +1019,7 @@
       "menu-item#festa-boteco"
     ]
   },
+
   "menu-item#guloseimas": {
     "props": {
       "id": "menu-item-guloseimas",
@@ -355,6 +1053,7 @@
       "menu-item#festa-boteco"
     ]
   },
+
   "menu-item#lembrancinhas": {
     "props": {
       "id": "menu-item-lembrancinhas",
