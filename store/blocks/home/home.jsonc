@@ -29,7 +29,7 @@
           "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/banner-lucas.png"
         }
       ],
-      "height": 450,
+      "height": 600,
       "showArrows": true,
       "showDots": true
     }
@@ -111,14 +111,22 @@
     }
   },
   "product-summary.shelf": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": true,
+      "badgeText": "OFF",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": true,
+      "showLabels": false,
+      "showInstallments": true,
+      "showSavings": true
+    },
     "children": [
-      "product-summary-add-to-list-button",
       "product-summary-image",
       "product-summary-name",
-      "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "product-identifier.summary",
       "product-summary-buy-button"
     ]
   },

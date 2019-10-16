@@ -50,6 +50,7 @@
       "minicart"
     ],
     "props": {
+      "sticky": true,
       "blockClass": "menu-link"
     }
   },
@@ -63,7 +64,6 @@
       "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
-      "sticky": true,
       "blockClass": "main-header"
     }
   },
@@ -81,14 +81,14 @@
       "product-summary"
     ],
     "props": {
-      "type": "popup",
+      "type": "sidebar",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
       "labelMiniCartEmpty": "",
       "labelButtonFinishShopping": "IR PARA O CARRINHO",
       "enableQuantitySelector": true,
-      "maxQuantity": 10,
+      "maxQuantity": 20,
       "labelClasses": "gray"
     }
   },
