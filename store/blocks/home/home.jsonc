@@ -27,6 +27,18 @@
         {
           "image": "https://festaexpress.vteximg.com.br/arquivos/banner-lucas.png",
           "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/banner-lucas.png"
+        },
+        {
+          "image": "https://festaexpress.vteximg.com.br/arquivos/banner-festa-halloween.png",
+          "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/banner-festa-halloween.png"
+        },
+        {
+          "image": "https://festaexpress.vteximg.com.br/arquivos/Banner-Principal-mes-das-criancas.png",
+          "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/Banner-Principal-mes-das-criancas.png"
+        },
+        {
+          "image": "https://festaexpress.vteximg.com.br/arquivos/Banner-Principal-snoopy.png",
+          "mobileImage": "https://festaexpress.vteximg.com.br/arquivos/Banner-Principal-snoopy.png"
         }
       ],
       "height": 600,
