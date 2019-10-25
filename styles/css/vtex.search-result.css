@@ -4,6 +4,8 @@
     padding: 17px;
     color: #fff;
     font-size: 15px;
+    font-family: quicksand;
+    font-weight: 600;
 }
 .filter__container--c .filterTitle:after{
     content: "";
@@ -34,6 +36,8 @@
     padding: 17px;
     color: #fff;
     font-size: 15px;
+    font-family: quicksand;
+    font-weight: 600;
 }
 .filter__container--b .filterTitle:after{
     content: "";
@@ -58,4 +62,7 @@
 }
 .filter__container{
     border: none;
+}
+.galleryTitle--layout{
+    font-family: quicksand;
 }
