@@ -75,10 +75,6 @@
   color: #4ab12b;
 }
 
-.priceContainer{
-  margin: 30px 0px;
-}
-
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 10px;

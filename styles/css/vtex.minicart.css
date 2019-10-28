@@ -1,8 +1,9 @@
 .container{
-    background-image: url(https://festaexpress.vteximg.com.br/arquivos/cart-header.jpg);
+    background-image: url(https://festaexpress.vteximg.com.br/arquivos/cart-header1.jpg);
     width: 217px;
     background-repeat: no-repeat;
     margin-left:1rem;
+    margin-top:.2rem;
  }
  .badge{
     font-size: 15px;

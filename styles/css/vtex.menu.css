@@ -1,8 +1,7 @@
 .menuItem :global(.vtex-menu-2-x-styledLink.c-emphasis){
-    border-radius:10px 10px 0 0;
     border: 1px solid #fff;
     display:block;
-    padding:10px 20px;
+    padding:11px 5px;
     color:#fff;
 }
 .menuItem:nth-child(odd) :global(.vtex-menu-2-x-styledLink.c-emphasis){

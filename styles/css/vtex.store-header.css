@@ -24,3 +24,6 @@
 .headerRowContainer{
   justify-content: center;
 }
+.headerStickyRow--search-top{
+  z-index: 2;
+}

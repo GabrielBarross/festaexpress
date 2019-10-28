@@ -44,9 +44,7 @@
   "header-row#2-desktop": {
     "children": [
       "logo#desktop",
-      "header-spacer",
-      "search-bar",
-      "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
       "minicart"
     ],
     "props": {
@@ -54,17 +52,15 @@
       "blockClass": "menu-link"
     }
   },
-  "search-bar":{
-    "props":{
-      "blockClass": "search-bar"
-    }
-  },
+  
   "header-row#3-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      "search-bar"
     ],
     "props": {
-      "blockClass": "main-header"
+      "inverted":true,
+      "sticky": true,
+      "blockClass":"search-top"
     }
   },
   "logo#desktop": {
