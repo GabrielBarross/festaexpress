@@ -7,7 +7,6 @@
 }
 .flexRow--inverted{
   background:#f39200;
-  margin:10px 0;
   padding:10px 0;
 }
 .flexRow--inverted :global(.vtex-rich-text-0-x-paragraph){
@@ -16,7 +15,10 @@
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
-
+.flexColChild--banner-mosaico{
+  overflow: hidden;
+  margin:10px;
+}
 .flexRow--deals .flexCol {
   align-items: center;
 }

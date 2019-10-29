@@ -4,6 +4,7 @@
       "carousel#home",
       "flex-layout.row#deals",
       "shelf#home1",
+      "flex-layout.row#banner-mosaico",
       "flex-layout.row#banner1",
       "shelf#home2",
       "flex-layout.row#banner2",
@@ -151,6 +152,73 @@
     "props":{
       "src":"https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
       "alt":"Uglydolls"
+    }
+  },
+  "flex-layout.row#banner-mosaico":{
+    "children": [
+      "flex-layout.col#mosaico-1",
+      "flex-layout.col#mosaico-2",
+      "flex-layout.col#mosaico-3"
+    ]
+  },
+  "flex-layout.col#mosaico-1":{
+    "props":{
+      "blockClass":"banner-mosaico"
+    },
+    "children":[
+      "image#image-mosaico-1",
+      "rich-text#texto-mosaico-1"
+    ]
+  },
+  "image#image-mosaico-1":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
+      "alt":"Mosaico 1"
+    }
+  },
+  "rich-text#texto-mosaico-1": {
+    "props": {
+      "text": "Lorem Ipsum 1"
+    }
+  },
+  "flex-layout.col#mosaico-2":{
+    "props":{
+      "blockClass":"banner-mosaico"
+    },
+    "children":[
+      "image#image-mosaico-2",
+      "rich-text#texto-mosaico-2"
+    ]
+  },
+  "image#image-mosaico-2":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
+      "alt":"Mosaico 2"
+    }
+  },
+  "rich-text#texto-mosaico-2": {
+    "props": {
+      "text": "Lorem Ipsum 2"
+    }
+  },
+  "flex-layout.col#mosaico-3":{
+    "props":{
+      "blockClass":"banner-mosaico"
+    },
+    "children":[
+      "image#image-mosaico-3",
+      "rich-text#texto-mosaico-3"
+    ]
+  },
+  "image#image-mosaico-3":{
+    "props":{
+      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
+      "alt":"Mosaico 3"
+    }
+  },
+  "rich-text#texto-mosaico-3": {
+    "props": {
+      "text": "Lorem Ipsum 3"
     }
   },
   "flex-layout.row#banner2":{

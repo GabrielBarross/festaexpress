@@ -53,7 +53,8 @@
       "menu-item#festa-neon",
       "menu-item#festa-naruto",
       "menu-item#festa-fazendinha",
-      "menu-item#festa-liquidacao"
+      "menu-item#festa-liquidacao",
+      "menu-item#vertodos-tematica"
     ]
   },
   "menu-item#festa-halloween": {
@@ -236,6 +237,21 @@
       }
     }
   },
+  "menu-item#vertodos-tematica": {
+    "props": {
+      "id": "menu-item-vertodos-tematica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#artigos-festa": {
     "props": {
@@ -274,7 +290,8 @@
       "menu-item#marabus-boas",
       "menu-item#neon-piscas",
       "menu-item#perucas",
-      "menu-item#tiaras"
+      "menu-item#tiaras",
+      "menu-item#vertodos-artigos"
     ]
   },
   "menu-item#chapeus-cartolas": {
@@ -427,6 +444,21 @@
       }
     }
   },
+  "menu-item#vertodos-artigos":{
+    "props": {
+      "id": "menu-item-vertodos-artigos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/artigos-para-festa",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#baloes-bexigas": {
     "props": {
@@ -460,7 +492,8 @@
       "menu-item#baloes-metalizados",
       "menu-item#baloes-letra",
       "menu-item#baloes-latex",
-      "menu-item#baloes-numero"
+      "menu-item#baloes-numero",
+      "menu-item#vertodos-baloes"
     ]
   },
   "menu-item#acessorios-baloes": {
@@ -538,6 +571,21 @@
       }
     }
   },
+  "menu-item#vertodos-baloes":{
+    "props": {
+      "id": "menu-item-vertodos-baloes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#cha-de-bebe": {
     "props": {
@@ -574,7 +622,8 @@
       "menu-item#batizado",
       "menu-item#cha-de-revelacao",
       "menu-item#chadebebe-rosa",
-      "menu-item#fisherprice-rosa"
+      "menu-item#fisherprice-rosa",
+      "menu-item#vertodos-chadebebe"
     ]
   },
   "menu-item#convite-chadebebe": {
@@ -697,6 +746,21 @@
       }
     }
   },
+  "menu-item#vertodos-chadebebe":{
+    "props": {
+      "id": "menu-item-cha-de-bebe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cha-de-bebe",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#confeitaria": {
     "props": {
@@ -730,7 +794,8 @@
       "menu-item#granulados-confeitos",
       "menu-item#recheios-coberturas",
       "menu-item#formas",
-      "menu-item#papel-arroz"
+      "menu-item#papel-arroz",
+      "menu-item#vertodos-confeitaria"
     ]
   },
   "menu-item#cortadores": {
@@ -808,6 +873,21 @@
       }
     }
   },
+  "menu-item#vertodos-confeitaria":{
+    "props": {
+      "id": "menu-item-vertodos-confeitaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#decoracao": {
     "props": {
@@ -843,7 +923,8 @@
       "menu-item#velas-aniversario",
       "menu-item#enfeite-pendurar",
       "menu-item#mdf",
-      "menu-item#papelaria"
+      "menu-item#papelaria",
+      "menu-item#vertodos-decoracao"
     ]
   },
   "menu-item#decoracao-mesa": {
@@ -951,6 +1032,21 @@
       }
     }
   },
+  "menu-item#vertodos-decoracao":{
+    "props": {
+      "id": "menu-item-vertodos-decoracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa",
+        "noFollow": false,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#descartaveis": {
     "props": {
@@ -991,7 +1087,8 @@
       "menu-item#descartaveis-luxo",
       "menu-item#pratos",
       "menu-item#toalhas-descartaveis",
-      "menu-item#forminhas"
+      "menu-item#forminhas",
+      "menu-item#vertodos-descartaveis"
     ]
   },
   "menu-item#acrilicos-festa": {
@@ -1174,6 +1271,21 @@
       }
     }
   },
+  "menu-item#vertodos-descartaveis":{
+    "props": {
+      "id": "menu-item-vertodos-descartaveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/descartaveis",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#festa-infantil": {
     "props": {
@@ -1207,7 +1319,8 @@
       "menu-item#temas-baby",
       "menu-item#liquidacao",
       "menu-item#temas-meninos",
-      "menu-item#kit-festa-infantil"
+      "menu-item#kit-festa-infantil",
+      "menu-item#vertodos-festainfantil"
     ]
   },
   "menu-item#temas-meninas": {
@@ -1285,6 +1398,21 @@
       }
     }
   },
+  "menu-item#vertodos-festainfantil":{
+    "props": {
+      "id": "menu-item-vertodos-festainfantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festa-infantil",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#guloseimas": {
     "props": {
@@ -1319,7 +1447,8 @@
       "menu-item#pirulitos",
       "menu-item#chocolates",
       "menu-item#marshmallows",
-      "menu-item#salgadinhos"
+      "menu-item#salgadinhos",
+      "menu-item#vertodos-guloseimas"
     ]
   },
   "menu-item#balas-chicletes": {
@@ -1412,6 +1541,21 @@
       }
     }
   },
+  "menu-item#vertodos-guloseimas":{
+    "props": {
+      "id": "menu-item-vertodos-guloseimas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guloseimas-e-doces",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
+      }
+    }
+  },
 
   "menu-item#lembrancinhas": {
     "props": {
@@ -1450,7 +1594,8 @@
       "menu-item#copos-canecas",
       "menu-item#para-montar",
       "menu-item#porta-treco",
-      "menu-item#squeeze-cantil"
+      "menu-item#squeeze-cantil",
+      "menu-item#vertodos-lembrancinhas"
     ]
   },
   "menu-item#artigos-lembrancinhas": {
@@ -1600,6 +1745,21 @@
         "noFollow": false,
         "tagTitle": "Canecas e Squeezes",
         "text": "Canecas e Squeezes"
+      }
+    }
+  },
+  "menu-item#vertodos-lembrancinhas":{
+    "props": {
+      "id": "menu-item-vertodos-lembrancinhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lembrancinhas-infantis",
+        "noFollow": true,
+        "tagTitle": "Ver Todos",
+        "text": "Ver Todos"
       }
     }
   }

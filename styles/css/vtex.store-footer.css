@@ -3,13 +3,14 @@
 }
 .footerLayout{
   border-top: 2px solid #ccc;
-  padding-top: 10px;
   margin-top: 10px;
+}
+.footerLayout :global(.vtex-rich-text-0-x-heading-level-4){
+  color:#fff;
 }
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
-
 .row--payment-methods {
   padding-top: 16px;
 }

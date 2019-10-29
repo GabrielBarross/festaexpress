@@ -20,16 +20,16 @@
   },
 
   "header-row#1-desktop": {
+    "props":{
+      "inverted":"true"
+    },
     "children": [
       "login",
       "rich-text#orders",
       "header-spacer",
       "vtex.menu@2.x:menu#websites",
       "rich-text#topbar"
-    ],
-    "props":{
-      "inverted":"true"
-    }
+    ]
   },
   "rich-text#orders": {
     "props": {
