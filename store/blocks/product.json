@@ -4,7 +4,7 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "product-description",
+      "flex-layout.row#descriptionBox",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -15,6 +15,23 @@
     },
     "children": [
       "breadcrumb"
+    ]
+  },
+  "flex-layout.row#descriptionBox": {
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#descriptionBox",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "15%"
+    }
+  },
+  "flex-layout.col#descriptionBox": {
+    "children": [
+      "product-description"
     ]
   },
   "flex-layout.row#product-main": {
