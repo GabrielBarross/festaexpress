@@ -65,7 +65,7 @@
   },
   "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "title": "Festa Express",
       "href": "/",
       "url": "https://festaexpress.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___6151bcfe416bd248d57e425384334e5a.png",
       "width": "180"
@@ -126,9 +126,9 @@
 
   "logo#mobile": {
     "props": {
-      "title": "Logo",
+      "title": "Festa Express",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://festaexpress.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___6151bcfe416bd248d57e425384334e5a.png",
       "width": "70"
     }
   }

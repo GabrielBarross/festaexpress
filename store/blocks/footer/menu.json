@@ -1,14 +1,17 @@
 {
-  "vtex.menu@2.x:menu#institucional1": {
+  "vtex.menu@2.x:menu#institucional": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
       "menu-item#sobre",
-      "menu-item#trocas-devolucoes",
-      "menu-item#frete-gratis",
       "menu-item#loja-fisica",
-      "menu-item#fale-conosco"
+      "menu-item#trocas-devolucoes",
+      "menu-item#seguranca",
+      "menu-item#privacidade",
+      "menu-item#pagamento",
+      "menu-item#atacado",
+      "menu-item#duvidas"
     ]
   },
   "menu-item#sobre": {
@@ -19,40 +22,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/empresa",
         "noFollow": false,
         "tagTitle": "Sobre Nós",
         "text": "Sobre Nós"
-      }
-    }
-  },
-  "menu-item#trocas-devolucoes": {
-    "props": {
-      "id": "menu-item-trocas-devolucoes",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Trocas e Devoluções",
-        "text": "Trocas e Devoluções"
-      }
-    }
-  },
-  "menu-item#frete-gratis": {
-    "props": {
-      "id": "menu-item-frete-gratis",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Frete Grátis",
-        "text": "Frete Grátis"
       }
     }
   },
@@ -64,40 +37,27 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/lojafisica",
         "noFollow": false,
         "tagTitle": "Loja Física",
         "text": "Loja Física"
       }
     }
   },
-  "menu-item#fale-conosco": {
+  "menu-item#trocas-devolucoes": {
     "props": {
-      "id": "menu-item-fale-conosco",
+      "id": "menu-item-trocas-devolucoes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "trocasdevolucoes",
         "noFollow": false,
-        "tagTitle": "Fale Conosco",
-        "text": "Fale Conosco"
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
       }
     }
-  },
-
-  "vtex.menu@2.x:menu#institucional2": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#seguranca",
-      "menu-item#privacidade",
-      "menu-item#pagamento",
-      "menu-item#atacado",
-      "menu-item#duvidas"
-    ]
   },
   "menu-item#seguranca": {
     "props": {
@@ -107,7 +67,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/seguranca",
         "noFollow": true,
         "tagTitle": "Segurança",
         "text": "Segurança"
@@ -122,7 +82,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/privacidade",
         "noFollow": true,
         "tagTitle": "Política de Privacidade",
         "text": "Política de Privacidade"
@@ -137,7 +97,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/pagamento",
         "noFollow": true,
         "tagTitle": "Formas de Pagamento",
         "text": "Formas de Pagamento"
@@ -152,25 +112,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/atacado",
         "noFollow": true,
         "tagTitle": "Vendas Atacado",
         "text": "Vendas Atacado"
-      }
-    }
-  },
-  "menu-item#duvidas": {
-    "props": {
-      "id": "menu-item-duvidas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "Dúvidas",
-        "text": "Dúvidas"
       }
     }
   },
@@ -237,9 +182,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#sobre",
-      "menu-item#trocas-devolucoes",
-      "menu-item#frete-gratis"
+      "menu-item#sobre"
     ]
   },
 
@@ -261,9 +204,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#sobre",
-      "menu-item#trocas-devolucoes",
-      "menu-item#frete-gratis"
+      
     ]
   },
 

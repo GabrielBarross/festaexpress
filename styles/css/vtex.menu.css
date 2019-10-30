@@ -1,6 +1,5 @@
 .menuItem :global(.vtex-menu-2-x-styledLink.c-emphasis){
-    display:block;
-    padding:11px;
+    padding:12px 4px;
     color:#fff;
 }
 .menuItem:nth-child(odd) :global(.vtex-menu-2-x-styledLink.c-emphasis),
@@ -15,7 +14,7 @@
     color:#000;
     display:block;
     padding:8px 40px 8px 20px;
-    font-size:16px;
+    font-size:15px;
 }
 .menuItem .submenu .menuItem:last-child .styledLink{
     background:#4ab12b;

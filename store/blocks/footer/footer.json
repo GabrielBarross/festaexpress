@@ -16,7 +16,8 @@
     "children": [
       "flex-layout.col#footer-1-desktop",
       "flex-layout.col#footer-2-desktop",
-      "flex-layout.col#footer-3-desktop"
+      "flex-layout.col#footer-3-desktop",
+      "flex-layout.col#footer-4-desktop"
     ],
     "props":{
       "blockClass":"inverted"
@@ -35,23 +36,17 @@
   },
   "flex-layout.row#sub-footer-2-desktop":{
     "children":[
-      "flex-layout.col#sub-footer-1-desktop",
-      "flex-layout.col#sub-footer-2-desktop"
+      "flex-layout.col#sub-footer-1-desktop"
     ]
   },
   "rich-text#titulo1": {
     "props": {
-      "text": "#### Institucional"
+      "text": "##### Institucional"
     }
   },
   "flex-layout.col#sub-footer-1-desktop":{
     "children":[
-      "vtex.menu@2.x:menu#institucional1"
-    ]
-  },
-  "flex-layout.col#sub-footer-2-desktop":{
-    "children":[
-      "vtex.menu@2.x:menu#institucional2"
+      "vtex.menu@2.x:menu#institucional"
     ]
   },
   "flex-layout.col#footer-2-desktop":{
@@ -59,12 +54,13 @@
       "rich-text#titulo2",
       "accepted-payment-methods",
       "rich-text#titulo3",
-      "rich-text#security"
+      "rich-text#security",
+      "social-networks"
     ]
   },
   "rich-text#titulo2": {
     "props": {
-      "text": "#### Formas de Pagamento"
+      "text": "##### Formas de Pagamento"
     }
   },
   "accepted-payment-methods": {
@@ -78,7 +74,7 @@
   },
   "rich-text#titulo3": {
     "props": {
-      "text": "#### Segurança"
+      "text": "##### Segurança"
     }
   },
   "rich-text#security": {
@@ -91,6 +87,11 @@
       "rich-text#page-facebook"
     ]
   },
+  "flex-layout.col#footer-4-desktop":{
+    "children":[
+      "rich-text#page-facebook"
+    ]
+  },
   "rich-text#page-facebook": {
     "props": {
       "text": ".<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFestaExpress%2F&tabs=exemplo&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1126797967420050' width='340' height='214' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>"
@@ -99,18 +100,11 @@
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "flex-layout.col#footer-4-desktop",
       "flex-layout.col#footer-5-desktop"
     ],
     "props":{
       "blockClass":"inverted"
     }
-  },
-  "flex-layout.col#footer-4-desktop":{
-    "children": [
-      "rich-text#social",
-      "social-networks"
-    ]
   },
   "rich-text#social":{
     "props": {

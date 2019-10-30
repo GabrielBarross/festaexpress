@@ -7,5 +7,20 @@
   },
   "store.custom#lojafisica": {
     "path": "/lojafisica"
+  },
+  "store.custom#trocasdevolucoes": {
+    "path": "/trocasdevolucoes"
+  },
+  "store.custom#seguranca": {
+    "path": "/seguranca"
+  },
+  "store.custom#pagamento": {
+    "path": "/pagamento"
+  },
+  "store.custom#privacidade": {
+    "path": "/privacidade"
+  },
+  "store.custom#atacado": {
+    "path": "/atacado"
   }
 }
