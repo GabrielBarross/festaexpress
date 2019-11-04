@@ -5,7 +5,9 @@
   font-size: 12px;
   text-decoration: underline;
 }
-
+.searchBarContainer input{
+  border-radius:.2rem;
+}
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
@@ -66,6 +68,7 @@
 
 .logoImage{
   margin:10px 0;
+  max-width:100px;
 }
 
 .buyButtonText--produto{
