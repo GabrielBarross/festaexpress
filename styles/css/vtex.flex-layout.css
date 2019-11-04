@@ -11,6 +11,7 @@
 }
 .flexRow--inverted :global(.vtex-rich-text-0-x-paragraph){
   color:#fff;
+  text-align:left;
 }
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;

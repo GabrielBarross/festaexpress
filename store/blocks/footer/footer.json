@@ -8,8 +8,7 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -25,10 +24,24 @@
   },
   "flex-layout.col#footer-1-desktop":{
     "children":[
-      "flex-layout.row#sub-footer-1-desktop",
-      "flex-layout.row#sub-footer-2-desktop"
+      "logo#desktop",
+      "rich-text#atendimento"
     ]
   },
+  "logo#desktop": {
+    "props": {
+      "title": "Festa Express",
+      "href": "/",
+      "url": "https://festaexpress.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___6151bcfe416bd248d57e425384334e5a.png",
+      "width": "100"
+    }
+  },
+  "rich-text#atendimento":{
+    "props": {
+      "text": "Central de Atendimento: (11) 3312-6600<br>Segunda a Sexta das 8h às 17h30<br>Sábados das 8h às 13h"
+    }
+  },
+
   "flex-layout.row#sub-footer-1-desktop":{
     "children":[
       "rich-text#titulo1"
@@ -51,11 +64,8 @@
   },
   "flex-layout.col#footer-2-desktop":{
     "children":[
-      "rich-text#titulo2",
-      "accepted-payment-methods",
-      "rich-text#titulo3",
-      "rich-text#security",
-      "social-networks"
+      "flex-layout.row#sub-footer-1-desktop",
+      "flex-layout.row#sub-footer-2-desktop"
     ]
   },
   "rich-text#titulo2": {
@@ -84,7 +94,11 @@
   },
   "flex-layout.col#footer-3-desktop":{
     "children":[
-      "rich-text#page-facebook"
+      "rich-text#titulo2",
+      "accepted-payment-methods",
+      "rich-text#titulo3",
+      "rich-text#security",
+      "social-networks"
     ]
   },
   "flex-layout.col#footer-4-desktop":{
@@ -100,7 +114,8 @@
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "flex-layout.col#footer-5-desktop"
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-7-desktop"
     ],
     "props":{
       "blockClass":"inverted"
@@ -111,16 +126,7 @@
       "text": "Redes Sociais"
     }
   },
-  "flex-layout.col#footer-5-desktop":{
-    "children": [
-      "rich-text#atendimento"
-    ]
-  },
-  "rich-text#atendimento":{
-    "props": {
-      "text": "Central de Atendimento: (11) 3312-6600<br>Segunda a Sexta das 8h às 17h30 | Sábados das 8h às 13h"
-    }
-  },
+  
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -146,8 +152,7 @@
 
   "flex-layout.row#footer-3-desktop": {
     "children": [
-      "flex-layout.col#footer-6-desktop",
-      "flex-layout.col#footer-7-desktop"
+      
     ],
     "props":{
       "blockClass":"inverted"
@@ -170,6 +175,8 @@
   },
   "rich-text#vtex": {
     "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "RIGHT",
       "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex3.png 'VTEX')](https://vtex.com/)"
     }
   },
