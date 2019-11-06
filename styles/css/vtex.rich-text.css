@@ -14,7 +14,9 @@
 .container--link {
   justify-content: center;
 }
-
+.container--text-tel{
+  font-size:16px !important;
+}
 .container--question {
   justify-content: center;
 }

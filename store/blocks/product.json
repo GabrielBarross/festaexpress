@@ -76,12 +76,12 @@
     },
     "children": [
       "product-name",
+      "product-identifier.product",
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
       "sku-selector",
       "product-quantity",
-      "product-identifier.product",
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "share#default"

@@ -1,26 +1,10 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#cadastro",
       "menu-item#empresa",
       "menu-item#duvidas",
       "menu-item#lojafisica"
     ]
-  },
-  "menu-item#cadastro": {
-    "props": {
-      "id": "menu-item-cadastro",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/account",
-        "noFollow": false,
-        "tagTitle": "Meu Cadastro",
-        "text": " Meu Cadastro | "
-      }
-    }
   },
   "menu-item#empresa": {
     "props": {
@@ -63,7 +47,7 @@
         "href": "/lojafisica",
         "noFollow": false,
         "tagTitle": "Loja Física",
-        "text": " Loja Física | "
+        "text": " Loja Física"
       }
     }
   }

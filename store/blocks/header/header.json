@@ -26,9 +26,11 @@
     "children": [
       "login",
       "rich-text#orders",
+      "rich-text#account",
       "header-spacer",
-      "vtex.menu@2.x:menu#websites",
-      "rich-text#topbar"
+      "rich-text#text-top",
+      "header-spacer",
+      "vtex.menu@2.x:menu#websites"
     ]
   },
   "rich-text#orders": {
@@ -36,26 +38,37 @@
       "text": "[Meus Pedidos](/account#/orders)"
     }
   },
-  "rich-text#topbar": {
+  "rich-text#account": {
     "props": {
-      "text": " (11) 3312-6600"
+      "text": "[Meu Cadastro](/account)"
+    }
+  },
+  "rich-text#text-top": {
+    "props": {
+      "text": "Festa Express, desde 2015 fazendo sua festa"
     }
   },
   "header-row#2-desktop": {
     "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
-      "minicart"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
-      "sticky": true,
-      "blockClass": "menu-link"
+      "sticky": true
     }
   },
   
+  "rich-text#teltop": {
+    "props": {
+      "text": "(11) 3312-6600",
+      "blockClass": "text-tel"
+    }
+  },
   "header-row#3-desktop": {
     "children": [
-      "search-bar"
+      "search-bar",
+      "minicart",
+      "rich-text#teltop"
     ],
     "props": {
       "inverted":true,

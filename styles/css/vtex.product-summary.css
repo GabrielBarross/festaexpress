@@ -4,7 +4,15 @@
     font-family: quicksand;
     font-weight: 700;
 }
-
+.buyButton{
+    display:none;
+}
+.containerNormal:hover .buyButton{
+    display:block;
+}
+.buyButtonContainer{
+    min-height:56px;
+}
 .sellingPrice{
     font-family: quicksand;
     font-weight: 700;
