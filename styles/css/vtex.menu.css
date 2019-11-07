@@ -6,6 +6,7 @@
 }
 .menuContainer--category-menu .styledLinkContainer .styledLink{
     color:#000;
+    font-size:14px;
 }
 .menuItem .submenu .styledLink:hover{
     background:#f39200;
@@ -26,6 +27,9 @@
 .styledLinkContainer{
     margin:0;
     padding:0;
+}
+.styledLink{
+    font-size:.8rem;
 }
 .submenu{
     border:2px solid #f39200;

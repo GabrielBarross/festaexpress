@@ -3,17 +3,16 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#deals",
-      "shelf#home1",
+      "shelf#shelf1",
       "flex-layout.row#banner-mosaico",
       "flex-layout.row#banner1",
-      "shelf#home2",
+      "shelf#shelf2",
       "flex-layout.row#banner2",
-      "shelf#home3",
+      "shelf#shelf3",
       "flex-layout.row#banner3",
-      "shelf#home4",
+      "shelf#shelf4",
       "flex-layout.row#banner4",
-      "shelf#home5",
-      "newsletter"
+      "shelf#shelf5"
     ]
   },
 
@@ -48,7 +47,7 @@
     }
   },
 
-  "shelf#home1": {
+  "shelf#shelf1": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -63,7 +62,7 @@
       }
     }
   },
-  "shelf#home2": {
+  "shelf#shelf2": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -78,7 +77,7 @@
       }
     }
   },
-  "shelf#home3": {
+  "shelf#shelf3": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -93,7 +92,7 @@
       }
     }
   },
-  "shelf#home4": {
+  "shelf#shelf4": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -108,7 +107,7 @@
       }
     }
   },
-  "shelf#home5": {
+  "shelf#shelf5": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",

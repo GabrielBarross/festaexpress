@@ -109,13 +109,8 @@
   },
   "flex-layout.col#footer-4-desktop":{
     "children":[
-      "rich-text#page-facebook"
+      "newsletter"
     ]
-  },
-  "rich-text#page-facebook": {
-    "props": {
-      "text": ".<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFestaExpress%2F&tabs=exemplo&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1126797967420050' width='340' height='214' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>"
-    }
   },
 
   "flex-layout.row#footer-2-desktop": {
@@ -183,7 +178,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
-      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex3.png 'VTEX')](https://vtex.com/)"
+      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)"
     }
   },
 

@@ -18,9 +18,6 @@
   max-width: 1528px;
   margin: 0 auto;
 }
-.newsletter .label{
-  color: #000;
-}
 .newsletter .container {
   padding: 10px;
 }
@@ -34,7 +31,6 @@
 
 .inputGroup {
   padding-bottom: 4px;
-  border-bottom: 2px solid #fff;
   display: flex;
   color: #fff;
 }

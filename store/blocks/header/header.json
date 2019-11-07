@@ -63,7 +63,7 @@
   
   "rich-text#teltop": {
     "props": {
-      "text": "(11) 3312-6600",
+      "text": "Televendas<br>(11) 3312-6600",
       "blockClass": "text-tel"
     }
   },

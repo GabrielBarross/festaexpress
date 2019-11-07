@@ -3,6 +3,12 @@
   text-align: center;
   justify-content: center;
 }
+.heading-level-5{
+  font-size:1rem;
+}
+.container{
+  font-size:.8rem;
+}
 .paragraph{
   margin: 0;
   text-align: center;
