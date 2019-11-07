@@ -78,7 +78,10 @@
       "paymentMethods": [
         "MasterCard",
         "Visa",
-        "Diners Club"
+        "Diners Club",
+        "Elo",
+        "Boleto",
+        "Amex"
       ]
     }
   },

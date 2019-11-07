@@ -14,3 +14,7 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+.paymentMethodIconImage,
+.socialNetworkImage{
+  filter:brightness(2)
+}

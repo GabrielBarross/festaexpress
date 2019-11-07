@@ -32,7 +32,6 @@
 .galleryTitle--layout{
     font-family: quicksand;
 }
-
 .galleryTitle--layout{
     background: #89309e;
     padding: 10px;
@@ -41,7 +40,12 @@
     font-size: 25px;
     text-align: center;
 }
-
 .filter__container--title{
     display: none
+}
+.categoryItemChildren{
+    color:#8e8e8e;
+}
+.categoryItemName{
+    font-weight:700;
 }

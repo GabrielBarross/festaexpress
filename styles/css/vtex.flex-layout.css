@@ -2,6 +2,9 @@
   background-color: #7EC200;
   padding: 5px 0;
 }
+.flexRow--deals .flexColChild{
+  filter:brightness(2)
+}
 .flexColChild{
   height:auto !important;
 }

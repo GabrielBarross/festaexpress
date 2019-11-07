@@ -74,7 +74,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
+      "src": "https://festaexpress.vteximg.com.br/arquivos/whatsapp-branco.png",
       "maxHeight": "24px"
     }
   },
@@ -98,7 +98,7 @@
   },
   "rich-text#deal5": {
     "props": {
-      "text": "Vendas por atacado",
+      "text": "Vendas<br>por atacado",
       "blockClass": "deals"
     }
   }

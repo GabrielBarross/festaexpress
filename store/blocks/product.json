@@ -4,7 +4,6 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "flex-layout.row#descriptionBox",
       "product-reviews",
       "product-questions-and-answers"
     ]
@@ -17,22 +16,10 @@
       "breadcrumb"
     ]
   },
-  "flex-layout.row#descriptionBox": {
-    "children": [
-      "flex-layout.col#spacer",
-      "flex-layout.col#descriptionBox",
-      "flex-layout.col#spacer"
-    ]
-  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "15%"
     }
-  },
-  "flex-layout.col#descriptionBox": {
-    "children": [
-      "product-description"
-    ]
   },
   "flex-layout.row#product-main": {
     "props": {
@@ -40,14 +27,12 @@
       "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
-      "paddingTop": 7,
       "paddingBottom": 7
     },
     "children": [
-      "flex-layout.col#space",
+      "flex-layout.col#left-col",
       "flex-layout.col#product-image",
-      "flex-layout.col#right-col",
-      "flex-layout.col#space"
+      "flex-layout.col#right-col"
     ]
   },
   "flex-layout.col#space": {
@@ -57,7 +42,7 @@
   },
   "flex-layout.col#product-image": {
     "props": {
-      "width": "40%",
+      "width": "30%",
       "rowGap": 0
     },
     "children": [
@@ -85,6 +70,15 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "share#default"
+    ]
+  },
+  "flex-layout.col#left-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-description"
     ]
   },
   "product-price#product-details": {
