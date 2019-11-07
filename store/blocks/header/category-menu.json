@@ -11,7 +11,10 @@
       "menu-item#festa-infantil",
       "menu-item#guloseimas",
       "menu-item#lembrancinhas"
-    ]
+    ],
+    "props":{
+      "blockClass": "category-menu"
+    }
   },
 
   "menu-item#festa-tematica": {

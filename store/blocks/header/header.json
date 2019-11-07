@@ -50,8 +50,11 @@
   },
   "header-row#2-desktop": {
     "children": [
+      "header-spacer",
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu"
+      "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer"
     ],
     "props": {
       "sticky": true

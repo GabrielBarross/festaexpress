@@ -98,8 +98,14 @@
       "accepted-payment-methods",
       "rich-text#titulo3",
       "rich-text#security",
+      "rich-text#titulo4",
       "social-networks"
     ]
+  },
+  "rich-text#titulo4": {
+    "props": {
+      "text": "##### Redes Sociais"
+    }
   },
   "flex-layout.col#footer-4-desktop":{
     "children":[

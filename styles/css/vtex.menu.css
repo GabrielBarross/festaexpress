@@ -1,7 +1,11 @@
-.menuItem :global(.vtex-menu-2-x-styledLink.c-emphasis){
-    padding:12px 4px;
-    color:#000;
+.menuItem .styledLinkContainer .styledLink{
+    padding:4px;
     text-align:center;
+    color:#fff;
+    display: inline-block;
+}
+.menuContainer--category-menu .styledLinkContainer .styledLink{
+    color:#000;
 }
 .menuItem .submenu .styledLink:hover{
     background:#f39200;
@@ -16,13 +20,16 @@
     background:#4ab12b;
 }
 .menuItem .submenu .styledLink:hover,
-.menuItem .submenu .menuItem:last-child .styledLink,
-.styledLink{
+.menuItem .submenu .menuItem:last-child .styledLink{
     color:#fff;
 }
 .styledLinkContainer{
     margin:0;
+    padding:0;
 }
 .submenu{
     border:2px solid #f39200;
+}
+.menuContainer{
+    line-height:1;
 }

@@ -5,27 +5,28 @@
   font-size: 12px;
   text-decoration: underline;
 }
-.searchBarContainer input{
-  border-radius:.2rem;
-}
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #E6F1E6;
   padding: 0px;
 }
-
+.searchBarContainer{
+  max-width:40rem;
+}
 .newsletter {
   max-width: 1528px;
   margin: 0 auto;
 }
-.newsletter label{
+.newsletter .label{
   color: #000;
 }
 .newsletter .container {
   padding: 10px;
 }
-
+.listPrice{
+  color:#89309e;
+}
 .label {
   color: #fff;
   font-size: 26px;
@@ -36,25 +37,6 @@
   border-bottom: 2px solid #fff;
   display: flex;
   color: #fff;
-}
-
-.inputGroup input {
-  background-color: transparent;
-  color: #000;
-  border: none;
-}
-
-.inputGroup input::placeholder {
-  color: #000;
-  font-size: 16px;
-}
-
-.inputGroup button {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  margin-right: -24px;
-  background:#4ab12b;
 }
 
 .buttonContainer {
