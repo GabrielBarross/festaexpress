@@ -1,22 +1,249 @@
 {
   "vtex.menu@2.x:menu#category-menu-mobile":{
     "children": [
-      "menu-item#festa-tematica",
-      "menu-item#artigos-festa",
-      "menu-item#baloes-bexigas",
-      "menu-item#cha-de-bebe",
-      "menu-item#confeitaria",
-      "menu-item#decoracao",
-      "menu-item#descartaveis",
-      "menu-item#festa-infantil",
-      "menu-item#guloseimas",
-      "menu-item#lembrancinhas"
+      "menu-item#festa-tematica-mobile",
+      "menu-item#artigos-festa-mobile",
+      "menu-item#baloes-bexigas-mobile",
+      "menu-item#cha-de-bebe-mobile",
+      "menu-item#confeitaria-mobile",
+      "menu-item#decoracao-mobile",
+      "menu-item#descartaveis-mobile",
+      "menu-item#festa-infantil-mobile",
+      "menu-item#guloseimas-mobile",
+      "menu-item#lembrancinhas-mobile"
     ],
     "props":{
-      "blockClass": "category-menu"
+      "orientation": "vertical",
+      "blockClass": "category-menu-mobile"
     }
   },
-  
+  "menu-item#festa-tematica-mobile": {
+    "props": {
+      "id": "menu-item-festa-tematica-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festas-tematicas",
+        "noFollow": false,
+        "tagTitle": "Festa Temática",
+        "text": "Festa Temática"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#festa-tematica-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#festa-tematica-mobile": {
+    "children": ["vtex.menu@2.x:menu#festa-tematica"]
+  },
+  "menu-item#artigos-festa-mobile": {
+    "props": {
+      "id": "menu-item-artigos-festa-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracoes-e-artigos-para-festa",
+        "noFollow": false,
+        "tagTitle": "Artigos de Festa",
+        "text": "Artigos de Festa"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#artigos-festa-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#artigos-festa-mobile": {
+    "children": ["vtex.menu@2.x:menu#artigos-festa"]
+  },
+  "menu-item#baloes-bexigas-mobile": {
+    "props": {
+      "id": "menu-item-baloes-bexigas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bexigas-e-baloes",
+        "noFollow": true,
+        "tagTitle": "Balões e Bexigas",
+        "text": "Balões e Bexigas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#baloes-bexigas-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#baloes-bexigas-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#baloes-bexigas"
+    ]
+  },
+  "menu-item#cha-de-bebe-mobile": {
+    "props": {
+      "id": "menu-item-cha-de-bebe-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/datas-comemorativas/cha-de-bebe",
+        "noFollow": true,
+        "tagTitle": "Chá de Bebê",
+        "text": "Chá de Bebê"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#cha-de-bebe-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#cha-de-bebe-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#cha-de-bebe"
+    ]
+  },
+  "menu-item#confeitaria-mobile": {
+    "props": {
+      "id": "menu-item-confeitaria-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/confeitaria",
+        "noFollow": false,
+        "tagTitle": "Confeitaria",
+        "text": "Confeitaria"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#confeitaria-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#confeitaria-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#confeitaria"
+    ]
+  },
+  "menu-item#decoracao-mobile": {
+    "props": {
+      "id": "menu-item-decoracao-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracao-de-festa",
+        "noFollow": false,
+        "tagTitle": "Decoração",
+        "text": "Decoração"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#decoracao-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoracao-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#decoracao"
+    ]
+  },
+  "menu-item#descartaveis-mobile": {
+    "props": {
+      "id": "menu-item-descartaveis-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/descartaveis",
+        "noFollow": true,
+        "tagTitle": "Descartáveis",
+        "text": "Descartáveis"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#descartaveis-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#descartaveis-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#descartaveis"
+    ]
+  },
+  "menu-item#festa-infantil-mobile": {
+    "props": {
+      "id": "menu-item-festa-infantil-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/festa-infantil",
+        "noFollow": true,
+        "tagTitle": "Festa Infantil",
+        "text": "Festa Infantil"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#festa-infantil-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#festa-infantil-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#festa-infantil"
+    ]
+  },
+  "menu-item#guloseimas-mobile": {
+    "props": {
+      "id": "menu-item-guloseimas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guloseimas-e-doces",
+        "noFollow": true,
+        "tagTitle": "Guloseimas",
+        "text": "Guloseimas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#guloseimas-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#guloseimas-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#guloseimas"
+    ]
+  },
+  "menu-item#lembrancinhas-mobile": {
+    "props": {
+      "id": "menu-item-lembrancinhas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lembrancinhas-infantis",
+        "noFollow": true,
+        "tagTitle": "Lembrancinhas",
+        "text": "Lembrancinhas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#lembrancinhas-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#lembrancinhas-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#lembrancinhas"
+    ]
+  },
+
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
       "menu-item#festa-tematica",
@@ -34,7 +261,6 @@
       "blockClass": "category-menu"
     }
   },
-
   "menu-item#festa-tematica": {
     "props": {
       "id": "menu-item-festa-tematica",
