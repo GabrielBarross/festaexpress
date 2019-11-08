@@ -91,7 +91,7 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7,
+      "marginBottom": 4,
       "width": "50%"
     },
     "children": [
@@ -103,8 +103,8 @@
       "buy-button#product"
     ],
     "props": {
-      "width": "70%",
-      "height": "100px"
+      "width": "50%",
+      "height": "150px"
     }
   },
   "buy-button#product": {

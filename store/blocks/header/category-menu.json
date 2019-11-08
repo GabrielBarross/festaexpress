@@ -1,4 +1,22 @@
 {
+  "vtex.menu@2.x:menu#category-menu-mobile":{
+    "children": [
+      "menu-item#festa-tematica",
+      "menu-item#artigos-festa",
+      "menu-item#baloes-bexigas",
+      "menu-item#cha-de-bebe",
+      "menu-item#confeitaria",
+      "menu-item#decoracao",
+      "menu-item#descartaveis",
+      "menu-item#festa-infantil",
+      "menu-item#guloseimas",
+      "menu-item#lembrancinhas"
+    ],
+    "props":{
+      "blockClass": "category-menu"
+    }
+  },
+  
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
       "menu-item#festa-tematica",
