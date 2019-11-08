@@ -33,7 +33,9 @@
   display: flex;
   color: #fff;
 }
-
+.productNameContainer{
+  margin-bottom:.5rem;
+}
 .buttonContainer {
   padding-top: 0px;
 }

@@ -97,7 +97,7 @@
       "muted-5": "transparent"
     },
     "hover-background": {
-      "action-primary": "#89309e",
+      "action-primary": "#000",
       "action-secondary": "transparent",
       "emphasis": "#dd1659",
       "success": "#8bc34a",

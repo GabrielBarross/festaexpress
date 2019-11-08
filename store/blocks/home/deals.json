@@ -98,7 +98,7 @@
   },
   "rich-text#deal5": {
     "props": {
-      "text": "Vendas<br>por atacado",
+      "text": "[Vendas<br>por atacado](/atacado)",
       "blockClass": "deals"
     }
   }
