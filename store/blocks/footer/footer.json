@@ -154,14 +154,6 @@
     }
   },
 
-  "flex-layout.row#footer-3-desktop": {
-    "children": [
-      
-    ],
-    "props":{
-      "blockClass":"inverted"
-    }
-  },
   "flex-layout.col#footer-6-desktop":{
     "children": [
       "rich-text#footer"
@@ -191,31 +183,37 @@
       "flex-layout.row#2-footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+  "flex-layout.row#1-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "inverted"
     }
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
+      "rich-text#titulo2",
       "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
+      "rich-text#titulo4",
+      "social-networks"
     ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
-  "flex-layout.row#1-footer-mobile": {
+  "flex-layout.row#2-footer-mobile": {
     "children": [
-      "vtex.menu@2.x:menu#footer-mobile"
-    ]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "GMR - NOVA ERA ARTIGOS PARA FESTA EIRELI / CNPJ 07.609.208/0001-51 / Av. Das Cerejeiras, 545 - Vila Maria, São Paulo - SP - CEP: 02124-000 / Preços e condições de pagamento exclusivos para compras via internet. 2008-2019",
-      "blockClass": "footer"
+      "flex-layout.col#footer-2-mobile"
+    ],
+    "props":{
+      "blockClass":"inverted"
     }
+  },
+  "flex-layout.col#footer-2-mobile":{
+    "children": [
+      "rich-text#footer",
+      "rich-text#vtex"
+    ]
   }
 }

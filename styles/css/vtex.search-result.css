@@ -7,10 +7,6 @@
     font-family: quicksand;
     font-weight: 600;
 }
-.filter__container--c:hover .categoryGroup{
-    max-height: 1000px;
-    overflow-y: scroll;
-}
 
 /* FILTRO B */
 .filter__container--b .filterTitle{
@@ -20,11 +16,6 @@
     font-size: 15px;
     font-family: quicksand;
     font-weight: 600;
-}
-
-.filter__container--b:hover .filterContent{
-    max-height: 1000px;
-    overflow-y: scroll;
 }
 .filter__container{
     border: none;
@@ -41,7 +32,7 @@
     text-align: center;
 }
 .filter__container--title{
-    display: none
+    display:none
 }
 .categoryItemChildren{
     color:#8e8e8e;

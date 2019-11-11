@@ -27,7 +27,8 @@
  }
 
  @media only screen and (max-width: 640px) {
-    .badge::after{
+    .badge::after,
+    .badge::before{
         display: none;
     }
     .badge{
