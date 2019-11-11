@@ -228,7 +228,7 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis",
+        "href": "/lembrancinhas",
         "noFollow": true,
         "tagTitle": "Lembrancinhas",
         "text": "Lembrancinhas"
@@ -1812,7 +1812,7 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis",
+        "href": "/lembrancinhas",
         "noFollow": true,
         "tagTitle": "Lembrancinhas",
         "text": "Lembrancinhas"
@@ -1853,7 +1853,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis/artigos-para-lembrancinhas",
+        "href": "/lembrancinhas/artigos-para-lembrancinhas",
         "noFollow": false,
         "tagTitle": "Artigos para Lembrancinhas",
         "text": "Artigos para Lembrancinhas"
@@ -1868,7 +1868,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis/brinquedinhos",
+        "href": "/lembrancinhas/brinquedinhos",
         "noFollow": false,
         "tagTitle": "Brinquedinhos",
         "text": "Brinquedinhos"
@@ -1883,7 +1883,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis/ecologicas",
+        "href": "/lembrancinhas/ecologicas",
         "noFollow": false,
         "tagTitle": "Ecológicas",
         "text": "Ecológicas"
@@ -1928,7 +1928,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis/saquinhos",
+        "href": "/lembrancinhas/saquinhos",
         "noFollow": false,
         "tagTitle": "Saquinhos e Embalagens",
         "text": "Saquinhos e Embalagens"
@@ -1988,7 +1988,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis/canecas-e-squeezes",
+        "href": "/lembrancinhas/canecas-e-squeezes",
         "noFollow": false,
         "tagTitle": "Canecas e Squeezes",
         "text": "Canecas e Squeezes"
@@ -2003,7 +2003,7 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas-infantis",
+        "href": "/lembrancinhas",
         "noFollow": true,
         "tagTitle": "Ver Todos",
         "text": "Ver Todos"
