@@ -28,6 +28,19 @@
 .headerStickyRow--search-top{
   z-index: 2;
 }
+.headerRowContainer--topbar{
+  height:30px;
+}
+.headerRowBackground--topbar{
+  background:#eee;
+}
+.headerRowBackground--topbar :global(.vtex-login-2-x-label),
+.headerRowBackground--topbar :global(.vtex-rich-text-0-x-link),
+.headerRowBackground--topbar :global(.vtex-menu-2-x-styledLink),
+.headerRowBackground--topbar :global(.vtex-rich-text-0-x-container){
+  color:#333;
+}
+
 @media only screen and (max-width: 1025px) {
   .headerRowBackground :global(.vtex-login-2-x-label){
     color:#f39200;

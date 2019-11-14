@@ -4,7 +4,10 @@
       "menu-item#empresa",
       "menu-item#duvidas",
       "menu-item#lojafisica"
-    ]
+    ],
+    "props":{
+      "blockClass":"menu-top"
+    }
   },
   "menu-item#empresa": {
     "props": {
@@ -17,7 +20,7 @@
         "href": "/empresa",
         "noFollow": false,
         "tagTitle": "Empresa",
-        "text": " Empresa | "
+        "text": " Empresa"
       }
     }
   },
@@ -32,7 +35,7 @@
         "href": "/duvidas",
         "noFollow": false,
         "tagTitle": "Dúvidas",
-        "text": " Dúvidas | "
+        "text": " Dúvidas"
       }
     }
   },

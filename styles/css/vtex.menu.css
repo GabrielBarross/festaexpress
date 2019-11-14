@@ -1,12 +1,20 @@
 .menuItem .styledLinkContainer .styledLink{
-    padding:6px;
+    padding:4px 6px;
     text-align:center;
-    color:#fff;
     display: inline-block;
+    color:#fff;
+}
+.menuContainer--menu-top .menuItem .styledLinkContainer .styledLink{
+    color:#333;
 }
 .menuContainer--category-menu .styledLinkContainer .styledLink{
     color:#000;
     font-size:14px;
+    border-right:1px solid #000;
+}
+.menuContainer--category-menu .menuItem:last-child .styledLink,
+.menuContainer--category-menu .submenu .styledLink{
+    border-right:0;
 }
 .menuItem .submenu .styledLink:hover,
 .menuContainer--category-menu .menuItem:hover{
@@ -17,14 +25,17 @@
 }
 .menuItem .submenu .styledLink:hover,
 .menuItem .submenu .menuItem:last-child .styledLink,
-.menuItem:hover .styledLink{
+.menuContainer--category-menu .menuItem:hover .styledLink{
     color:#fff;
 }
-.menuItem .submenu .styledLink{
+.menuContainer--category-menu .menuItem .submenu .styledLink{
     color:#000;
     display:block;
     padding:8px 40px 8px 20px;
     font-size:15px;
+}
+.menuContainer--category-menu .menuItem .submenu .styledLink:hover{
+    color:#fff;
 }
 .styledLinkContainer{
     margin:0;
@@ -45,9 +56,12 @@
 }
 .submenu .menuItem :global(.absolute){
     left:100% !important;
-    top: -35px;
+    top:-35px;
     padding: 0;
     border: 0;
+}
+.menuContainer--category-menu .styledLink:hover{
+    color:#fff;
 }
 @media only screen and (max-width: 1025px) {
     .menuItem .styledLinkContainer .styledLink{

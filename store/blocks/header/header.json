@@ -21,7 +21,8 @@
 
   "header-row#1-desktop": {
     "props":{
-      "inverted":"true"
+      "inverted":"true",
+      "blockClass":"topbar"
     },
     "children": [
       "login",
@@ -50,11 +51,8 @@
   },
   "header-row#2-desktop": {
     "children": [
-      "header-spacer",
       "logo#desktop",
-      "header-spacer",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "sticky": true

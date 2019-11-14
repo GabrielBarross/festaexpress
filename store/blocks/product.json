@@ -30,7 +30,6 @@
       "paddingBottom": 7
     },
     "children": [
-      "flex-layout.col#left-col",
       "flex-layout.col#product-image",
       "flex-layout.col#right-col"
     ]
@@ -42,7 +41,7 @@
   },
   "flex-layout.col#product-image": {
     "props": {
-      "width": "30%",
+      "width": "40%",
       "rowGap": 0
     },
     "children": [
@@ -69,15 +68,7 @@
       "product-quantity",
       "flex-layout.row#buy-button",
       "availability-subscriber",
-      "share#default"
-    ]
-  },
-  "flex-layout.col#left-col": {
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 0
-    },
-    "children": [
+      "share#default",
       "product-description"
     ]
   },
