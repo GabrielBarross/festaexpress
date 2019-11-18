@@ -26,7 +26,7 @@
   justify-content: center;
 }
 .headerStickyRow--search-top{
-  z-index: 2;
+  z-index: 3;
 }
 .headerRowContainer--topbar{
   height:30px;

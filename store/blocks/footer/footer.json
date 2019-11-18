@@ -73,15 +73,6 @@
       "text": "##### Formas de Pagamento"
     }
   },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": [
-        "MasterCard",
-        "Visa",
-        "Diners Club"
-      ]
-    }
-  },
   "rich-text#titulo3": {
     "props": {
       "text": "##### Segurança"
@@ -95,12 +86,17 @@
   "flex-layout.col#footer-3-desktop":{
     "children":[
       "rich-text#titulo2",
-      "accepted-payment-methods",
+      "rich-text#payment-methods",
       "rich-text#titulo3",
       "rich-text#security",
       "rich-text#titulo4",
       "social-networks"
     ]
+  },
+  "rich-text#payment-methods":{
+    "props": {
+      "text": "![Métodos de Pagamento](https://festaexpress.vteximg.com.br/arquivos/payment-methods.png 'Métodos de Pagamento')"
+    }
   },
   "rich-text#titulo4": {
     "props": {
@@ -193,13 +189,10 @@
       "rich-text#titulo1",
       "vtex.menu@2.x:menu#institucional",
       "rich-text#titulo2",
-      "accepted-payment-methods",
+      "rich-text#payment-methods",
       "rich-text#titulo4",
       "social-networks"
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+    ]
   },
   "flex-layout.row#2-footer-mobile": {
     "children": [
