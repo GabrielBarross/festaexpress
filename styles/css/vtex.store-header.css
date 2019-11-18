@@ -15,8 +15,8 @@
 }
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0;
-  background-color: #F0F0F0;
-  color:#f39200;
+  background-color: #f39200;
+  color:#fff;
 }
 .headerRowBackground :global(.vtex-menu-2-x-styledLinkContainer){
   padding:0;
@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 1025px) {
   .headerRowBackground :global(.vtex-login-2-x-label){
-    color:#f39200;
+    color:#fff;
     text-decoration:none;
   }
 }
