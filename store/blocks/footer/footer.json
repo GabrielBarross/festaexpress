@@ -78,10 +78,7 @@
       "paymentMethods": [
         "MasterCard",
         "Visa",
-        "Diners Club",
-        "Elo",
-        "Boleto",
-        "Amex"
+        "Diners Club"
       ]
     }
   },
@@ -193,6 +190,8 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
+      "rich-text#titulo1",
+      "vtex.menu@2.x:menu#institucional",
       "rich-text#titulo2",
       "accepted-payment-methods",
       "rich-text#titulo4",

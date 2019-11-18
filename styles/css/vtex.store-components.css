@@ -71,6 +71,9 @@
   .container{
     overflow: hidden;
   }
+  .imageElement{
+    width:100%;
+  }
 }
 @media only screen and (min-width: 640px) {
   .newsletter .container {

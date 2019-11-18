@@ -74,7 +74,7 @@
     background:#fff;
 }
 @media only screen and (max-width: 1025px) {
-    .menuItem .styledLinkContainer .styledLink{
+    .menuContainer--category-menu-mobile .menuItem .styledLinkContainer .styledLink{
         color:#000;
     }
 }
