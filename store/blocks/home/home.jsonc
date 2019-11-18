@@ -145,7 +145,10 @@
   "flex-layout.row#banner1":{
     "children":[
       "image#image-banner1"
-    ]
+    ],
+    "props":{
+      "blockClass":"o-hidden"
+    }
   },
   "image#image-banner1":{
     "props":{
@@ -223,7 +226,10 @@
   "flex-layout.row#banner2":{
     "children":[
       "image#image-banner2"
-    ]
+    ],
+    "props":{
+      "blockClass":"o-hidden"
+    }
   },
   "image#image-banner2":{
     "props":{
@@ -234,7 +240,10 @@
   "flex-layout.row#banner3":{
     "children":[
       "image#image-banner3"
-    ]
+    ],
+    "props":{
+      "blockClass":"o-hidden"
+    }
   },
   "image#image-banner3":{
     "props":{
@@ -245,7 +254,10 @@
   "flex-layout.row#banner4":{
     "children":[
       "image#image-banner4"
-    ]
+    ],
+    "props":{
+      "blockClass":"o-hidden"
+    }
   },
   "image#image-banner4":{
     "props":{

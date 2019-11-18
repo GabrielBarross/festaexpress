@@ -217,29 +217,6 @@
       "vtex.menu@2.x:menu#guloseimas"
     ]
   },
-  "menu-item#lembrancinhas-mobile": {
-    "props": {
-      "id": "menu-item-lembrancinhas-mobile",
-      "type": "custom",
-      "iconId": null,
-      "highlight": true,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas",
-        "noFollow": true,
-        "tagTitle": "Lembrancinhas",
-        "text": "Lembrancinhas"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu.accordion#lembrancinhas-mobile"
-    ]
-  },
-  "vtex.menu@2.x:submenu.accordion#lembrancinhas-mobile": {
-    "children": [
-      "vtex.menu@2.x:menu#lembrancinhas"
-    ]
-  },
 
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
@@ -1178,117 +1155,6 @@
         "tagTitle": "Confeitaria",
         "text": "Confeitaria"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#confeitaria"
-    ]
-  },
-  "vtex.menu@2.x:submenu#confeitaria": {
-    "children": [
-      "vtex.menu@2.x:menu#confeitaria"
-    ]
-  },
-  "vtex.menu@2.x:menu#confeitaria": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#cortadores",
-      "menu-item#granulados-confeitos",
-      "menu-item#recheios-coberturas",
-      "menu-item#formas",
-      "menu-item#papel-arroz",
-      "menu-item#vertodos-confeitaria"
-    ]
-  },
-  "menu-item#cortadores": {
-    "props": {
-      "id": "menu-item-cortadores",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria/cortadores",
-        "noFollow": false,
-        "tagTitle": "Cortadores",
-        "text": "Cortadores"
-      }
-    }
-  },
-  "menu-item#granulados-confeitos": {
-    "props": {
-      "id": "menu-item-granulados-confeitos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria/granulados-e-confeitos",
-        "noFollow": false,
-        "tagTitle": "Granulados e Confeitos",
-        "text": "Granulados e Confeitos"
-      }
-    }
-  },
-  "menu-item#recheios-coberturas": {
-    "props": {
-      "id": "menu-item-recheios-coberturas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria/recheios-e-coberturas",
-        "noFollow": false,
-        "tagTitle": "Recheios e Coberturas",
-        "text": "Recheios e Coberturas"
-      }
-    }
-  },
-  "menu-item#formas": {
-    "props": {
-      "id": "menu-item-formas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria/formas",
-        "noFollow": false,
-        "tagTitle": "Formas",
-        "text": "Formas"
-      }
-    }
-  },
-  "menu-item#papel-arroz": {
-    "props": {
-      "id": "menu-item-papel-arroz",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria/papel-arroz",
-        "noFollow": false,
-        "tagTitle": "Papel Arroz",
-        "text": "Papel Arroz"
-      }
-    }
-  },
-  "menu-item#vertodos-confeitaria":{
-    "props": {
-      "id": "menu-item-vertodos-confeitaria",
-      "type": "custom",
-      "iconId": null,
-      "highlight": true,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guloseimas-e-doces/confeitaria",
-        "noFollow": false,
-        "tagTitle": "Ver Todos",
-        "text": "Ver Todos"
-      }
     }
   },
 
@@ -1863,7 +1729,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/guloseimas-e-doces/balas-e-chicletes",
+        "href": "/guloseimas-e-doces/balas-e-chicletes/d",
         "noFollow": false,
         "tagTitle": "Balas e Chicletes",
         "text": "Balas e Chicletes"
@@ -1878,7 +1744,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/guloseimas-e-doces/confetes-e-confeitos",
+        "href": "/guloseimas-e-doces/confetes-e-confeitos/d",
         "noFollow": false,
         "tagTitle": "Confetes e Confeitos",
         "text": "Confetes e Confeitos"
@@ -1908,7 +1774,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/guloseimas-e-doces/chocolates",
+        "href": "/guloseimas-e-doces/chocolates/d",
         "noFollow": false,
         "tagTitle": "Chocolates",
         "text": "Chocolates"
@@ -1969,201 +1835,10 @@
       "highlight": true,
       "itemProps": {
         "type": "internal",
-        "href": "/lembrancinhas",
+        "href": "/lembrancinhas/d",
         "noFollow": true,
         "tagTitle": "Lembrancinhas",
         "text": "Lembrancinhas"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#lembrancinhas"
-    ]
-  },
-  "vtex.menu@2.x:submenu#lembrancinhas": {
-    "children": [
-      "vtex.menu@2.x:menu#lembrancinhas"
-    ]
-  },
-  "vtex.menu@2.x:menu#lembrancinhas": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#artigos-lembrancinhas",
-      "menu-item#brinquedinhos",
-      "menu-item#ecologicas",
-      "menu-item#porta-retrato",
-      "menu-item#sanduicheira",
-      "menu-item#saquinhos-embalagens",
-      "menu-item#copos-canecas",
-      "menu-item#para-montar",
-      "menu-item#porta-treco",
-      "menu-item#squeeze-cantil",
-      "menu-item#vertodos-lembrancinhas"
-    ]
-  },
-  "menu-item#artigos-lembrancinhas": {
-    "props": {
-      "id": "menu-item-artigos-lembrancinhas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas/artigos-para-lembrancinhas",
-        "noFollow": false,
-        "tagTitle": "Artigos para Lembrancinhas",
-        "text": "Artigos para Lembrancinhas"
-      }
-    }
-  },
-  "menu-item#brinquedinhos": {
-    "props": {
-      "id": "menu-item-brinquedinhos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas/brinquedinhos",
-        "noFollow": false,
-        "tagTitle": "Brinquedinhos",
-        "text": "Brinquedinhos"
-      }
-    }
-  },
-  "menu-item#ecologicas": {
-    "props": {
-      "id": "menu-item-ecologicas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas/ecologicas",
-        "noFollow": false,
-        "tagTitle": "Ecológicas",
-        "text": "Ecológicas"
-      }
-    }
-  },
-  "menu-item#porta-retrato": {
-    "props": {
-      "id": "menu-item-porta-retrato",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/porta-retrato",
-        "noFollow": false,
-        "tagTitle": "Porta Retrato",
-        "text": "Porta Retrato"
-      }
-    }
-  },
-  "menu-item#sanduicheira": {
-    "props": {
-      "id": "menu-item-sanduicheira",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sanduicheira",
-        "noFollow": false,
-        "tagTitle": "Sanduicheira",
-        "text": "Sanduicheira"
-      }
-    }
-  },
-  "menu-item#saquinhos-embalagens": {
-    "props": {
-      "id": "menu-item-saquinhos-embalagens",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas/saquinhos",
-        "noFollow": false,
-        "tagTitle": "Saquinhos e Embalagens",
-        "text": "Saquinhos e Embalagens"
-      }
-    }
-  },
-  "menu-item#copos-canecas": {
-    "props": {
-      "id": "menu-item-copos-canecas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/copos",
-        "noFollow": false,
-        "tagTitle": "Copos e Canecas",
-        "text": "Copos e Canecas"
-      }
-    }
-  },
-  "menu-item#para-montar": {
-    "props": {
-      "id": "menu-item-para-montar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/montar",
-        "noFollow": false,
-        "tagTitle": "Para Montar",
-        "text": "Para Montar"
-      }
-    }
-  },
-  "menu-item#porta-treco": {
-    "props": {
-      "id": "menu-item-porta-treco",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/treco",
-        "noFollow": false,
-        "tagTitle": "Porta-Treco",
-        "text": "Porta-Treco"
-      }
-    }
-  },
-  "menu-item#squeeze-cantil": {
-    "props": {
-      "id": "menu-item-squeeze-cantil",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas/canecas-e-squeezes",
-        "noFollow": false,
-        "tagTitle": "Canecas e Squeezes",
-        "text": "Canecas e Squeezes"
-      }
-    }
-  },
-  "menu-item#vertodos-lembrancinhas":{
-    "props": {
-      "id": "menu-item-vertodos-lembrancinhas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": true,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lembrancinhas",
-        "noFollow": true,
-        "tagTitle": "Ver Todos",
-        "text": "Ver Todos"
       }
     }
   }
