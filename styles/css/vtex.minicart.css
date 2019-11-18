@@ -40,7 +40,7 @@
     }
     .container{
         background-image: none;
-        width: 100px;
+        width: auto;
     }
     .container svg{
         display: flex;

@@ -63,6 +63,16 @@
 .menuContainer--category-menu .styledLink:hover{
     color:#fff;
 }
+.menuContainer--category-menu-mobile .styledLinkContainer .styledLink{
+    width:95%;
+    padding:15px 10px;
+    border-bottom:1px solid #fff;
+    background:#eee;
+}
+.menuContainer--category-menu-mobile .submenuAccordion .styledLinkContainer .styledLink{
+    border-bottom:0;
+    background:#fff;
+}
 @media only screen and (max-width: 1025px) {
     .menuItem .styledLinkContainer .styledLink{
         color:#000;
