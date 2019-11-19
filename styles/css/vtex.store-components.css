@@ -67,6 +67,8 @@
     width:50%;
 }
 
+.imageElement{max-width: 100% !important;}
+
 @media only screen and (max-width: 640px) {
   .imageElement{
     width:100%;

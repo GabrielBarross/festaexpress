@@ -55,7 +55,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Festa Halloween"
@@ -70,7 +70,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "LIQUIDAFEST - Até 80% de desconto!"
@@ -85,7 +85,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Festa Temática Naruto"
@@ -100,7 +100,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Bexigas e Balões"
@@ -115,7 +115,7 @@
       "productList": {
         "maxItems": 8,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
+        "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Guloseimas e Doces"

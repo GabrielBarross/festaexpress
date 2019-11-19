@@ -166,7 +166,8 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "RIGHT",
-      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)"
+      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)",
+      "blockClass":"logo-vtex"
     }
   },
 

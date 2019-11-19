@@ -18,10 +18,14 @@
     font-weight: 700;
 }
 .containerNormal{
-    border:1px solid #000;
+    border:1px solid #d2d2d2;
     padding:.5rem;
 }
 .nameContainer,
 .priceContainer{
     padding:.5rem 0;
+}
+
+.imageNormal{
+    max-height: 10rem !important;
 }

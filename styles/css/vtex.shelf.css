@@ -2,6 +2,11 @@
     font-family: quicksand;
     font-weight: 600;
 }
-.sliderContainer{
-    padding:0 5rem;
+
+@media only screen and (min-width: 40em) {
+    .arrowLeft{margin-left: 5em;}
+    .arrowRight{margin-right: 5em;}
+    .sliderContainer{
+        padding:0 8rem;
+    }    
 }
