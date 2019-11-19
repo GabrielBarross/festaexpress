@@ -68,6 +68,11 @@
 }
 
 .imageElement{max-width: 100% !important;}
+<<<<<<< HEAD
+.imageElement--banner-desktop{display: none;}
+.imageElement--banner-mobile{display: block;}
+=======
+>>>>>>> d0fb51c06e415b1b2317383346da1aabbfec8f16
 
 @media only screen and (max-width: 640px) {
   .imageElement{
@@ -91,4 +96,6 @@
     margin-bottom: 0px;
     max-height: 600px;
   }
+  .imageElement--banner-desktop{display: block;}
+  .imageElement--banner-mobile{display: none;}
 }
