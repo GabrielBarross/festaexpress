@@ -6,12 +6,16 @@
       "shelf#shelf-one-festa",
       "flex-layout.row#banner-mosaico",
       "flex-layout.row#banner1",
+      "flex-layout.row#bannermobile1",
       "shelf#shelf-two-festa",
       "flex-layout.row#banner2",
+      "flex-layout.row#bannermobile2",
       "shelf#shelf-three-festa",
       "flex-layout.row#banner3",
+      "flex-layout.row#bannermobile3",
       "shelf#shelf-four-festa",
       "flex-layout.row#banner4",
+      "flex-layout.row#bannermobile4",
       "shelf#shelf-five-festa"
     ]
   },
@@ -150,30 +154,38 @@
       "product-summary-buy-button"
     ]
   },
-  "flex-layout.row#banner1":{
-    "children":[
-      "image#image-banner1",
+  // ---- BANNER 1 ----- //
+  "flex-layout.row#banner1": {
+    "children": [
+      "image#image-banner1"
+    ],
+    "props": {
+      "blockClass": "banner-one"
+    }
+  },
+  "image#image-banner1": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
+      "alt": "Uglydolls",
+      "blockClass": "banner-desktop"
+    }
+  },
+  "flex-layout.row#bannermobile1": {
+    "children": [
       "image#image-bannerMobile1"
     ],
     "props": {
-      "blockClass": "o-hidden"
+      "blockClass": "banner-one"
     }
   },
-  "image#image-banner1":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
-      "alt":"Uglydolls",
-      "blockClass":"banner-desktop"
+  "image#image-bannerMobile1": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
+      "alt": "Uglydolls",
+      "blockClass": "banner-mobile"
     }
   },
-  "image#image-bannerMobile1":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
-      "alt":"Uglydolls",
-      "blockClass":"banner-mobile"
-    }
-  },  
-  "flex-layout.row#banner-mosaico":{
+  "flex-layout.row#banner-mosaico": {
     "children": [
       "flex-layout.col#mosaico-1",
       "flex-layout.col#mosaico-2",
@@ -190,20 +202,20 @@
       "rich-text#texto-mosaico-1"
     ]
   },
-  "image#image-mosaico-1":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
-      "alt":"Mosaico 1",
-      "blockClass":"banner-desktop"
+  "image#image-mosaico-1": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
+      "alt": "Mosaico 1",
+      "blockClass": "banner-desktop"
     }
   },
-  "image#image-mosaicoMobile-1":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
-      "alt":"Mosaico 1",
-      "blockClass":"banner-mobile"
+  "image#image-mosaicoMobile-1": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
+      "alt": "Mosaico 1",
+      "blockClass": "banner-mobile"
     }
-  },  
+  },
   "rich-text#texto-mosaico-1": {
     "props": {
       "text": "Lorem Ipsum 1"
@@ -219,20 +231,20 @@
       "rich-text#texto-mosaico-2"
     ]
   },
-  "image#image-mosaico-2":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
-      "alt":"Mosaico 2",
-      "blockClass":"banner-desktop"
+  "image#image-mosaico-2": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
+      "alt": "Mosaico 2",
+      "blockClass": "banner-desktop"
     }
   },
-  "image#image-mosaicoMobile-2":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
-      "alt":"Mosaico 2",
-      "blockClass":"banner-mobile"
+  "image#image-mosaicoMobile-2": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
+      "alt": "Mosaico 2",
+      "blockClass": "banner-mobile"
     }
-  },  
+  },
   "rich-text#texto-mosaico-2": {
     "props": {
       "text": "Lorem Ipsum 2"
@@ -248,85 +260,116 @@
       "rich-text#texto-mosaico-3"
     ]
   },
-  "image#image-mosaico-3":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
-      "alt":"Mosaico 3",
-      "blockClass":"banner-desktop"
+  "image#image-mosaico-3": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
+      "alt": "Mosaico 3",
+      "blockClass": "banner-desktop"
     }
   },
-  "image#image-mosaicoMobile-3":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
-      "alt":"Mosaico 3",
-      "blockClass":"banner-mobile"
+  "image#image-mosaicoMobile-3": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
+      "alt": "Mosaico 3",
+      "blockClass": "banner-mobile"
     }
-  },  
+  },
   "rich-text#texto-mosaico-3": {
     "props": {
       "text": "Lorem Ipsum 3"
     }
   },
-  "flex-layout.row#banner2":{
-    "children":[
-      "image#image-banner2",
-      "image#image-bannerMobile2"
-
+  // ---- BANNER DOIS ---- //
+  "flex-layout.row#banner2": {
+    "children": [
+      "image#image-banner2"
     ],
     "props": {
-      "blockClass": "o-hidden"
+      "blockClass": "bannerTwo"
     }
   },
-  "image#image-banner2":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
-      "alt":"Neon e Piscas",
-      "blockClass":"banner-desktop"
+  "flex-layout.row#bannermobile2": {
+    "children": [
+      "image#image-bannerMobile2"
+    ],
+    "props": {
+      "blockClass": "bannerTwo"
     }
   },
-  "image#image-bannerMobile2":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
-      "alt":"Neon e Piscas",
-      "blockClass":"banner-mobile"
+  "image#image-banner2": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
+      "alt": "Neon e Piscas",
+      "blockClass": "banner-desktop"
     }
-  },  
-  "flex-layout.row#banner3":{
-    "children":[
+  },
+  "image#image-bannerMobile2": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
+      "alt": "Neon e Piscas",
+      "blockClass": "banner-mobile"
+    }
+  },
+  // ---- BANNER TRES ---- //
+  "flex-layout.row#banner3": {
+    "children": [
       "image#image-banner3"
     ],
     "props": {
-      "blockClass": "o-hidden"
+      "blockClass": "bannerThree"
     }
   },
-  "image#image-banner3":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
-      "alt":"Chuva de Amor",
-      "blockClass":"banner-desktop"
+  "image#image-banner3": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
+      "alt": "Chuva de Amor",
+      "blockClass": "banner-desktop"
     }
   },
-  "flex-layout.row#banner4":{
-    "children":[
-      "image#image-banner4",
+  "flex-layout.row#bannermobile3": {
+    "children": [
+      "image#image-bannerMobile3"
+    ],
+    "props": {
+      "blockClass": "bannerThree"
+    }
+  },
+  "image#image-bannerMobile3": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
+      "alt": "Chuva de Amor",
+      "blockClass": "banner-mobile"
+    }
+  },
+  // ---- BANNER QUATRO ---- //
+  "flex-layout.row#banner4": {
+    "children": [
+      "image#image-banner4"
+    ],
+    "props": {
+      "blockClass": "bannerFour"
+    }
+  },
+  "image#image-banner4": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
+      "alt": "Descartáveis de Luxo",
+      "blockClass": "banner-desktop"
+    }
+  },
+  "flex-layout.row#bannermobile4": {
+    "children": [
       "image#image-bannerMobile4"
     ],
     "props": {
-      "blockClass": "o-hidden"
+      "blockClass": "bannerFour"
     }
   },
-  "image#image-banner4":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
-      "alt":"Descartáveis de Luxo",
-      "blockClass":"banner-desktop"
+  "image#image-bannerMobile4": {
+    "props": {
+      "src": "https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
+      "alt": "Descartáveis de Luxo",
+      "blockClass": "banner-mobile"
     }
-  },
-  "image#image-bannerMobile4":{
-    "props":{
-      "src":"https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
-      "alt":"Descartáveis de Luxo",
-      "blockClass":"banner-mobile"
-    }
-  }  
+  }
 }
