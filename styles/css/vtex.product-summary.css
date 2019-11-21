@@ -4,9 +4,6 @@
     font-family: quicksand;
     font-weight: 700;
 }
-.buyButton{
-    display:none;
-}
 .containerNormal:hover .buyButton{
     display:block;
 }
@@ -25,7 +22,11 @@
 .priceContainer{
     padding:.5rem 0;
 }
-
 .imageNormal{
     max-height: 10rem !important;
+}
+@media only screen and (min-width: 1025px) {
+    .buyButton{
+        display:none;
+    }
 }

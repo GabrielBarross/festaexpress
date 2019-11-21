@@ -159,11 +159,28 @@
   },
   "flex-layout.row#contentmobile": {
     "children": [
-      "search-content"
+      "flex-layout.col#contentmobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true
     }
+  },
+  "flex-layout.col#contentmobile": {
+    "children": [
+      "search-content",
+      "search-fetch-more"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#fetchmore":{
+    "props": {
+      "marginTop": 3
+    },
+    "children": [
+      "search-fetch-more"
+    ]
   },
   "flex-layout.row#searchinfomobile": {
     "children": [
