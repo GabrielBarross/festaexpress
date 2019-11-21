@@ -40,3 +40,7 @@
 .categoryItemName{
     font-weight:700;
 }
+.buttonShowMore{
+    margin-top:1rem;
+    height: 50px;
+}
