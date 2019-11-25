@@ -94,7 +94,7 @@
       "muted-2": "#3f3f40",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "transparent"
+      "muted-5": "rgba(0,0,0,0)"
     },
     "hover-background": {
       "action-primary": "#8e8e8e",
@@ -110,11 +110,11 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "transparent"
+      "muted-5": "rgba(0,0,0,0)"
     },
     "active-background": {
       "action-primary": "#0c389f",
-      "action-secondary": "transparent",
+      "action-secondary": "rgba(0,0,0,0)",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
