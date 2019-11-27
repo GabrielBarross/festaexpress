@@ -23,7 +23,8 @@
     display: none;
  }
  .container button{
-     width:217px;
+    width:217px;
+    background: url(https://festaexpress.vteximg.com.br/arquivos/cart-header1.jpg) no-repeat !important;
  }
 
  @media only screen and (max-width: 640px) {
