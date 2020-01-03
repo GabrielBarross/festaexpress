@@ -9,27 +9,9 @@
  */
 {
   "store.orderplaced": {
-    "blocks": [
-      "flex-layout.row#orderPlaced"
-    ]
+    "blocks": ["order-placed"]
   },
-  "flex-layout.row#orderPlaced":{
-    "children":[
-      "flex-layout.col#orderPlacedCol"
-    ],
-    "props":{
-      "blockClass": "order-page"
-    }
-  },
-  "flex-layout.col#orderPlacedCol":{
-    "children":[
-      "order-placed"
-    ],
-    "props":{
-      "blockClass": "order-page"
-    }
-  },
-
+  
   "store.account": {
     "blocks": ["my-account"],
     "parent": {

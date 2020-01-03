@@ -39,7 +39,25 @@
 .buttonContainer {
   padding-top: 0px;
 }
-
+.infoCardCallActionContainer--banner-dpto,
+.infoCardTextContainer--banner-dpto,
+.infoCardCallActionContainer--banner-dpt-principal,
+.infoCardTextContainer--banner-dpt-principal{
+  display: none;
+}
+.infoCardImageContainer--banner-dpto,
+.infoCardImageContainer--banner-dpt-principal{
+  width: 100%;
+  font-size:0;
+}
+.infoCardHeadline--banner-dpto {
+  font-size: 1rem;
+  margin-top: 0;
+}
+.infoCardContainer--banner-dpto {
+  padding: 0;
+  margin: 0;
+}
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
