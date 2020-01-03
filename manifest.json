@@ -1,7 +1,7 @@
 {
   "vendor": "festaexpress",
   "name": "festa-express-theme",
-  "version": "0.0.52",
+  "version": "0.0.53",
   "builders": {
     "styles": "1.x",
     "store": "0.x"
@@ -34,8 +34,8 @@
     "vtex.product-quantity": "1.x",
     "vtex.product-identifier": "0.x",
     "vtex.breadcrumb": "1.x",
-    "vtex.order-placed":"1.x",
-    "vtex.product-review-interfaces":"1.x"
+    "vtex.order-placed": "1.x",
+    "vtex.product-review-interfaces": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
