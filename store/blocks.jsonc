@@ -11,7 +11,9 @@
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
-  
+  "order-placed":{
+    "props":{}
+  },
   "store.account": {
     "blocks": ["my-account"],
     "parent": {
