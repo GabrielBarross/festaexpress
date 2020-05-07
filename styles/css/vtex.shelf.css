@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.slide{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 @media only screen and (min-width: 40em) {
     .arrowLeft{margin-left: 5em;}
     .arrowRight{margin-right: 5em;}

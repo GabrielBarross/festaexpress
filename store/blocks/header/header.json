@@ -31,8 +31,49 @@
       "header-spacer",
       "rich-text#text-top",
       "header-spacer",
-      "vtex.menu@2.x:menu#websites"
+      "rich-text#header-instagram",
+      "rich-text#header-facebook",
+      "rich-text#header-pintrest",
+      "rich-text#header-blog",
+      "rich-text#header-youtube",
+      "rich-text#header-twitter"
     ]
+  },
+  "rich-text#header-instagram": {
+    "props": {
+      "text": "[![Instagram](https://festaexpress.vteximg.com.br/arquivos/header-instagram.png?v02 'Instagram')](https://www.instagram.com/festaexpress/)",
+      "blockClass": "header-social"
+    }
+  },
+  "rich-text#header-facebook": {
+    "props": {
+      "text": "[![Facebook](https://festaexpress.vteximg.com.br/arquivos/header-facebook.png?v01 'Facebook')](https://www.facebook.com/FestaExpress)",
+      "blockClass": "header-social"
+    }
+  },
+  "rich-text#header-pintrest": {
+    "props": {
+      "text": "[![Pintrest](https://festaexpress.vteximg.com.br/arquivos/header-pinterest.png?v01 'Pintrest')](https://br.pinterest.com/festaexpress)",
+      "blockClass": "header-social"
+    }
+  },
+  "rich-text#header-blog": {
+    "props": {
+      "text": "[![Blog](https://festaexpress.vteximg.com.br/arquivos/header-blog.png?v02 'Blog')](https://blog.festaexpress.com.br/)",
+      "blockClass": "header-social"
+    }
+  },
+  "rich-text#header-youtube": {
+    "props": {
+      "text": "[![Youtube](https://festaexpress.vteximg.com.br/arquivos/header-youtube.png?v01 'Youtube')](https://www.youtube.com/user/FestaExpress)",
+      "blockClass": "header-social"
+    }
+  },
+  "rich-text#header-twitter": {
+    "props": {
+      "text": "[![Twitter](https://festaexpress.vteximg.com.br/arquivos/header-twitter.png?v01 'Twitter')](https://twitter.com/festaexpress)",
+      "blockClass": "header-social"
+    }
   },
   "rich-text#orders": {
     "props": {
@@ -58,23 +99,29 @@
       "sticky": true
     }
   },
-  
+  "header-row#3-desktop": {
+    "children": [
+      "search-bar",
+      "minicart",
+      "rich-text#teltop",
+      "rich-text#loja-fisica"
+    ],
+    "props": {
+      "inverted":true,
+      "sticky": true,
+      "blockClass":"search-top"
+    }
+  },
   "rich-text#teltop": {
     "props": {
       "text": "Televendas<br>(11) 3312-6600",
       "blockClass": "text-tel"
     }
   },
-  "header-row#3-desktop": {
-    "children": [
-      "search-bar",
-      "minicart",
-      "rich-text#teltop"
-    ],
+  "rich-text#loja-fisica": {
     "props": {
-      "inverted":true,
-      "sticky": true,
-      "blockClass":"search-top"
+      "text": "[Loja Física](/lojafisica)",
+      "blockClass": "loja-fisica"
     }
   },
   "logo#desktop": {

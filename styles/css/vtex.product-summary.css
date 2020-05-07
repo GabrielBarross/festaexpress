@@ -1,3 +1,6 @@
+:global(.vtex-toast){
+    background-color: #67ad42!important;
+}
 .productBrand{
     display: block;
     line-height: 25px;
@@ -6,6 +9,9 @@
 }
 .containerNormal:hover .buyButton{
     display:block;
+}
+.buyButton :global(.vtex-button){
+    border-radius: 50px;
 }
 .buyButtonContainer{
     min-height:56px;

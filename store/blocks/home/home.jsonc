@@ -3,20 +3,14 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#deals",
-      "shelf#shelf-one-festa",
-      "flex-layout.row#banner-mosaico",
-      "flex-layout.row#banner1",
-      "flex-layout.row#bannermobile1",
+      "list-context.image-list#banners-top",
+      "shelf#shelf-1",
+      "responsive-layout.desktop#mosaic",
+      "responsive-layout.mobile#mosaic",
+      "rich-text#title-banners-category",
+      "list-context.image-list#banners-category",
       "shelf#shelf-two-festa",
-      "flex-layout.row#banner2",
-      "flex-layout.row#bannermobile2",
-      "shelf#shelf-three-festa",
-      "flex-layout.row#banner3",
-      "flex-layout.row#bannermobile3",
-      "shelf#shelf-four-festa",
-      "flex-layout.row#banner4",
-      "flex-layout.row#bannermobile4",
-      "shelf#shelf-five-festa"
+      "list-context.image-list#banners-bottom"
     ]
   },
   "carousel#home": {
@@ -49,7 +43,7 @@
       "showDots": true
     }
   },
-  "shelf#shelf-one-festa": {
+  "shelf#shelf-1": {
     "blocks": [
       "product-summary.shelf"
     ],
@@ -62,7 +56,8 @@
         "minItemsPerPage": 2,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Festa Halloween"
+        "gap": "ph3",
+        "titleText": "Lanaçamento"
       }
     }
   },
@@ -154,222 +149,302 @@
       "product-summary-buy-button"
     ]
   },
-  // ---- BANNER 1 ----- //
-  "flex-layout.row#banner1": {
+  "responsive-layout.desktop#mosaic": {
     "children": [
-      "image#image-banner1"
-    ],
-    "props": {
-      "blockClass": "banner-one"
-    }
+      "flex-layout.row#banner-mosaico-desktop"
+    ]
   },
-  "image#image-banner1": {
-    "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
-      "alt": "Uglydolls",
-      "blockClass": "banner-desktop"
-    }
-  },
-  "flex-layout.row#bannermobile1": {
-    "children": [
-      "image#image-bannerMobile1"
-    ],
-    "props": {
-      "blockClass": "banner-one"
-    }
-  },
-  "image#image-bannerMobile1": {
-    "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/uglydolls1.png",
-      "alt": "Uglydolls",
-      "blockClass": "banner-mobile"
-    }
-  },
-  "flex-layout.row#banner-mosaico": {
+  "flex-layout.row#banner-mosaico-desktop": {
     "children": [
       "flex-layout.col#mosaico-1",
       "flex-layout.col#mosaico-2",
       "flex-layout.col#mosaico-3"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "responsive-layout.mobile#mosaic": {
+    "children": [
+      "slider-layout#mosaico-mobile"
     ]
+  },
+  "slider-layout#mosaico-mobile": {
+    "children": ["image#image-mosaico-1", "image#image-mosaico-2", "image#image-mosaico-3", "image#image-mosaico-4", "image#image-mosaico-5", "image#image-mosaico-6"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots":  "never"
+    }
   },
   "flex-layout.col#mosaico-1": {
     "props": {
-      "blockClass": "banner-mosaico"
+      "blockClass": "banner-mosaico",
+      "horizontalAlign": "center"
     },
     "children": [
       "image#image-mosaico-1",
-      "image#image-mosaicoMobile-1",
-      "rich-text#texto-mosaico-1"
+      "rich-text#mosaico-1",
+      "image#image-mosaico-4",
+      "rich-text#mosaico-4"
+    ]
+  },
+  "flex-layout.col#mosaico-2": {
+    "props": {
+      "blockClass": "banner-mosaico",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#image-mosaico-2",
+      "rich-text#mosaico-2",
+      "image#image-mosaico-5",
+      "rich-text#mosaico-5"
+    ]
+  },
+  "flex-layout.col#mosaico-3": {
+    "props": {
+      "blockClass": "banner-mosaico",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#image-mosaico-3",
+      "rich-text#mosaico-3",
+      "image#image-mosaico-6",
+      "rich-text#mosaico-6"
     ]
   },
   "image#image-mosaico-1": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
-      "alt": "Mosaico 1",
-      "blockClass": "banner-desktop"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 1"
     }
-  },
-  "image#image-mosaicoMobile-1": {
-    "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico1.png",
-      "alt": "Mosaico 1",
-      "blockClass": "banner-mobile"
-    }
-  },
-  "rich-text#texto-mosaico-1": {
-    "props": {
-      "text": "Lorem Ipsum 1"
-    }
-  },
-  "flex-layout.col#mosaico-2": {
-    "props": {
-      "blockClass": "banner-mosaico"
-    },
-    "children": [
-      "image#image-mosaico-2",
-      "image#image-mosaicoMobile-2",
-      "rich-text#texto-mosaico-2"
-    ]
   },
   "image#image-mosaico-2": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
-      "alt": "Mosaico 2",
-      "blockClass": "banner-desktop"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 2"
     }
-  },
-  "image#image-mosaicoMobile-2": {
-    "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico2.png",
-      "alt": "Mosaico 2",
-      "blockClass": "banner-mobile"
-    }
-  },
-  "rich-text#texto-mosaico-2": {
-    "props": {
-      "text": "Lorem Ipsum 2"
-    }
-  },
-  "flex-layout.col#mosaico-3": {
-    "props": {
-      "blockClass": "banner-mosaico"
-    },
-    "children": [
-      "image#image-mosaico-3",
-      "image#image-mosaicoMobile-3",
-      "rich-text#texto-mosaico-3"
-    ]
   },
   "image#image-mosaico-3": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
-      "alt": "Mosaico 3",
-      "blockClass": "banner-desktop"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 3"
     }
   },
-  "image#image-mosaicoMobile-3": {
+  "image#image-mosaico-4": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/mosaico3.jpg",
-      "alt": "Mosaico 3",
-      "blockClass": "banner-mobile"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 4"
     }
   },
-  "rich-text#texto-mosaico-3": {
+  "image#image-mosaico-5": {
     "props": {
-      "text": "Lorem Ipsum 3"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 2"
     }
   },
-  // ---- BANNER DOIS ---- //
-  "flex-layout.row#banner2": {
-    "children": [
-      "image#image-banner2"
-    ],
+  "image#image-mosaico-6": {
     "props": {
-      "blockClass": "bannerTwo"
+      "src": "https://dummyimage.com/400x220/bf1cbf/fff.png",
+      "alt": "Mosaico 3"
     }
   },
-  "flex-layout.row#bannermobile2": {
-    "children": [
-      "image#image-bannerMobile2"
-    ],
+  "rich-text#title-banners-category": {
     "props": {
-      "blockClass": "bannerTwo"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Navegue por Categoria",
+      "textColor": "c-muted-1",
+      "font": "t-heading-2",
+      "blockClass": "heading-home"
     }
   },
-  "image#image-banner2": {
+  "rich-text#mosaico-1": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
-      "alt": "Neon e Piscas",
-      "blockClass": "banner-desktop"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  "image#image-bannerMobile2": {
+  "rich-text#mosaico-2": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/neon-e-piscas.gif",
-      "alt": "Neon e Piscas",
-      "blockClass": "banner-mobile"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  // ---- BANNER TRES ---- //
-  "flex-layout.row#banner3": {
-    "children": [
-      "image#image-banner3"
-    ],
+  "rich-text#mosaico-3": {
     "props": {
-      "blockClass": "bannerThree"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  "image#image-banner3": {
+  "rich-text#mosaico-4": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
-      "alt": "Chuva de Amor",
-      "blockClass": "banner-desktop"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  "flex-layout.row#bannermobile3": {
-    "children": [
-      "image#image-bannerMobile3"
-    ],
+  "rich-text#mosaico-5": {
     "props": {
-      "blockClass": "bannerThree"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  "image#image-bannerMobile3": {
+  "rich-text#mosaico-6": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/chuva-de-amor-festcolor.png",
-      "alt": "Chuva de Amor",
-      "blockClass": "banner-mobile"
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "blockClass": "mosaic-text"
     }
   },
-  // ---- BANNER QUATRO ---- //
-  "flex-layout.row#banner4": {
-    "children": [
-      "image#image-banner4"
-    ],
+  "list-context.image-list#banners-top": {
+    "children": ["slider-layout#banners-top-itens"],
     "props": {
-      "blockClass": "bannerFour"
+      "images": [
+        {
+          "image": "https://dummyimage.com/180x180/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/180x310/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        }
+      ]
     }
   },
-  "image#image-banner4": {
+  "list-context.image-list#banners-bottom": {
+    "children": ["slider-layout#banners-bottom-itens"],
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
-      "alt": "Descartáveis de Luxo",
-      "blockClass": "banner-desktop"
+      "images": [
+        {
+          "image": "https://dummyimage.com/1900x450/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/640x120/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        }
+      ]
     }
   },
-  "flex-layout.row#bannermobile4": {
-    "children": [
-      "image#image-bannerMobile4"
-    ],
+  "list-context.image-list#banners-category": {
+    "children": ["slider-layout#banners-category-itens"],
     "props": {
-      "blockClass": "bannerFour"
+      "height": 136,
+      "images": [
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        },
+        {
+          "image": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "mobileImage": "https://dummyimage.com/163x136/bf1cbf/fff.png",
+          "description": "",
+          "link": "/"
+        }
+      ]
     }
   },
-  "image#image-bannerMobile4": {
+
+  "slider-layout#banners-top-itens": {
     "props": {
-      "src": "https://festaexpress.vteximg.com.br/arquivos/descartaveis-de-luxo.png",
-      "alt": "Descartáveis de Luxo",
-      "blockClass": "banner-mobile"
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots":  "never",
+      "infinite": false
+    }
+  },
+  "slider-layout#banners-category-itens": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots":  "never",
+      "infinite": false
+    }
+  },
+  "slider-layout#banners-bottom-itens": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots":  "never",
+      "infinite": false
     }
   }
 }

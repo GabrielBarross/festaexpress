@@ -1,20 +1,42 @@
+.flexCol--align-right{
+  text-align: right;
+}
 .flexRow--deals {
   background-color: #7EC200;
   padding: 5px 0;
+  margin-bottom: 1.5rem;
 }
 .flexRow--deals .flexColChild{
   filter:brightness(2)
 }
+.flexRow--deals :global(.vtex-store-components-3-x-imageElement){
+  max-height: 50px!important;
+}
+.flexRow--product-content{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .flexColChild{
   height:auto !important;
+}
+.flexRowContent :global(.vtex-button){
+  border-radius: 50px;
 }
 .flexRow--inverted{
   background:#89309e;
   padding:10px 0;
 }
+.flexRowContent--inverted{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .flexRow--inverted :global(.vtex-rich-text-0-x-paragraph){
   color:#fff;
-  text-align:left;
+  text-align: justify;
+}
+.flexRow--newsletter{
+  background:#702980;
+  padding: .5rem 0;
 }
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;

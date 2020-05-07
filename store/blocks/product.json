@@ -8,7 +8,8 @@
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 4,
+      "blockClass": "product-content"
     },
     "children": [
       "breadcrumb"
@@ -25,7 +26,8 @@
       "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "product-content"
     },
     "children": [
       "flex-layout.col#product-image",
@@ -58,9 +60,10 @@
     },
     "children": [
       "product-name",
-      "product-identifier.product",
+      "flex-layout.row#sku",
       "product-separator",
-      "product-price#product-details",
+      "product-highlights",
+      "flex-layout.row#product-price",
       "sku-selector",
       "product-quantity",
       "flex-layout.row#buy-button",
@@ -69,21 +72,148 @@
       "product-description"
     ]
   },
+  "flex-layout.row#sku": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#product-identifier",
+      "flex-layout.col#link-category"
+    ]
+  },
+  "flex-layout.col#product-identifier": {
+    "props": {
+      "width": "40%"
+    },
+    "children": [
+      "product-identifier.product"
+    ]
+  },
+  "flex-layout.col#link-category": {
+    "props": {
+      "width": "60%"
+    },
+    "children": [
+      "breadcrumb#final-category"
+    ]
+  },
+  "breadcrumb#final-category": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 0,
+      "caretIconSize": 0,
+      "blockClass": "breadcrumb-link"
+    }
+  },
+  "flex-layout.row#product-price": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 4,
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.col#product-price",
+      "flex-layout.col#bt-installments"
+    ]
+  },
+  "flex-layout.col#product-price": {
+    "props": {
+      "width": "50%"
+    },
+    "children": [
+      "product-price#product-details",
+      "cash-discount"
+    ]
+  },
+  "flex-layout.col#bt-installments": {
+    "props": {
+      "width": "50%",
+      "horizontalAlign": "right",
+      "verticalAlign": "bottom",
+      "blockClass": "align-right"
+    },
+    "children": [
+      "responsive-layout.desktop#bt-parcelamento"
+    ]
+  },
+  "responsive-layout.desktop#bt-parcelamento": {
+    "children": [
+      "modal-trigger#frete-gratis",
+      "modal-trigger#parcelamento"
+    ]
+  },
+  "modal-trigger#frete-gratis": {
+    "children": [
+      "rich-text#frete-gratis",
+      "modal-layout#frete-gratis"
+    ]
+  },
+  "modal-layout#frete-gratis": {
+    "children": [
+      "rich-text#frete-gratis-info"
+    ]
+  },
+  "rich-text#frete-gratis-info": {
+    "props": {
+      "text": "Regras do frete gratis"
+    }
+  },
+  "rich-text#frete-gratis": {
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "Frete Grátis - Confira as condições",
+      "blockClass": "frete-gratis"
+    }
+  },
+  "modal-trigger#parcelamento": {
+    "children": [
+      "rich-text#parcelamento",
+      "modal-layout#parcelamento"
+    ]
+  },
+  "modal-layout#parcelamento": {
+    "children": [
+      "rich-text#parcelamento-info"
+    ]
+  },
+  "rich-text#parcelamento-info": {
+    "props": {
+      "text": "Condições de parcelamento"
+    }
+  },
+  "rich-text#parcelamento": {
+    "props": {
+      "textAlignment": "right",
+      "textPosition": "right",
+      "text": "Ver formas de parcelamento",
+      "blockClass": "parcelamento"
+    }
+  },
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
-      "showSavings": true,
+      "showSavings": false,
       "blockClass": "productPrice"
+    }
+  },
+  "cash-discount": {
+    "props": {
+      "blockClass": "cash-discount",
+      "percentageNumber": 10,
+      "minimumPrice": 0,
+      "discountDescription": "à vista"
     }
   },
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
       "marginBottom": 4,
-      "width": "50%"
+      "width": "100%"
     },
     "children": [
-      "flex-layout.col#buy-button"
+      "flex-layout.col#buy-button",
+      "flex-layout.col#security-seals"
     ]
   },
   "flex-layout.col#buy-button": {
@@ -91,13 +221,35 @@
       "buy-button#product"
     ],
     "props": {
-      "width": "50%",
+      "width": "100%",
+      "height": "150px"
+    }
+  },
+  "flex-layout.col#security-seals": {
+    "children": [
+      "rich-text#security-seals"
+    ],
+    "props": {
+      "width": "100%",
       "height": "150px"
     }
   },
   "buy-button#product": {
     "props": {
       "blockClass": "produto"
+    }
+  },
+  "rich-text#security-seals": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![Compra segura](https://festaexpress.vteximg.com.br/arquivos/security-badge.png 'Compra segura')",
+      "blockClass": "security-seals-buy"
+    }
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": false
     }
   },
   "share#default": {

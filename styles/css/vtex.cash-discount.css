@@ -1,0 +1,17 @@
+.cashText--cash-discount{
+    color: #89309e;
+    margin: .5rem 0 0;
+    font-size: 1.2rem;
+}
+.cashText--cash-discount::before{
+    content: "Ou";
+    font-size: .875rem;
+    color: #3f3f40;
+    margin-right: .2rem;
+}
+.cashText--cash-discount::after{
+    content: "(em pedidos acima de R$ 229,00 no depósito)";
+    font-size: .775rem;
+    color: #3f3f40;
+    display: block;
+}

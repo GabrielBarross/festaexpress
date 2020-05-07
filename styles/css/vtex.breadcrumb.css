@@ -1,0 +1,33 @@
+.container--breadcrumb-link .termArrow, .container--breadcrumb-link .homeLink, .container--breadcrumb-link .term, .arrow--breadcrumb-link{
+    display: none;
+}
+.container--breadcrumb-link{
+    text-align: right;
+    padding: 0;
+}
+.arrow--breadcrumb-link:nth-last-child(3){
+    display: inline-block;
+    background-color: #89309e;
+    font-size: .9rem;
+    color: #fff;
+    font-weight: bold;
+    padding: .2rem 1rem;
+    border-radius: 50px;
+}
+.arrow--breadcrumb-link:nth-last-child(3)::before{
+    content: "Ver mais produto";
+    font-weight: normal;
+}
+.arrow--breadcrumb-link:nth-last-child(3)::after{
+    content: "[+]";
+    font-weight: normal;
+}
+.container--breadcrumb-link .link{
+    color: inherit;
+}
+@media only screen and (max-width: 639px) {
+    .container--breadcrumb-link{
+        text-align: left;
+        padding: .5rem 0;
+    }
+}

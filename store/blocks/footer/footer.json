@@ -7,16 +7,17 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#newsletter",
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop"
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#footer-1-desktop",
       "flex-layout.col#footer-2-desktop",
-      "flex-layout.col#footer-3-desktop",
-      "flex-layout.col#footer-4-desktop"
+      "flex-layout.col#footer-3-desktop"
     ],
     "props":{
       "blockClass":"inverted"
@@ -54,33 +55,60 @@
   },
   "rich-text#titulo1": {
     "props": {
-      "text": "##### Institucional"
+      "text": "Institucional",
+      "blockClass": "footer-title"
     }
   },
   "flex-layout.col#sub-footer-1-desktop":{
     "children":[
       "vtex.menu@2.x:menu#institucional"
-    ]
+    ],
+    "props": {
+      "width": "35%"
+    }
   },
   "flex-layout.col#footer-2-desktop":{
     "children":[
       "flex-layout.row#sub-footer-1-desktop",
       "flex-layout.row#sub-footer-2-desktop"
-    ]
+    ],
+    "props": {
+      "width": "25%"
+    }
   },
   "rich-text#titulo2": {
     "props": {
-      "text": "##### Formas de Pagamento"
+      "text": "Formas de Pagamento",
+      "blockClass": "footer-title"
     }
   },
   "rich-text#titulo3": {
     "props": {
-      "text": "##### Segurança"
+      "text": "Segurança e Plataforma",
+      "blockClass": "security-title"
     }
   },
-  "rich-text#security": {
+  "flex-layout.row#security":{
+    "children": [
+      "rich-text#lets-encrypt"
+    ]
+  },
+  "rich-text#lets-encrypt": {
     "props": {
-      "text": "![Segurança](https://festaexpress.vteximg.com.br/arquivos/security1.png 'Segurança')"
+      "text": "![Lets Encrypt](https://festaexpress.vteximg.com.br/arquivos/lets-encrypt.png 'Lets Encrypt') ![Fcontrol](https://festaexpress.vteximg.com.br/arquivos/fcontrol.png 'Fcontrol') [![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)",
+      "blockClass": "security-seals"
+    }
+  },
+  "rich-text#fcontrol": {
+    "props": {
+      "text": "![Fcontrol](https://festaexpress.vteximg.com.br/arquivos/fcontrol.png 'Fcontrol')"
+    }
+  },
+  "rich-text#vtex": {
+    "props": {
+      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)",
+      "textPosition": "CENTER",
+      "blockClass": "logo-vtex"
     }
   },
   "flex-layout.col#footer-3-desktop":{
@@ -88,31 +116,44 @@
       "rich-text#titulo2",
       "rich-text#payment-methods",
       "rich-text#titulo3",
-      "rich-text#security",
+      "flex-layout.row#security",
       "rich-text#titulo4",
       "social-networks"
-    ]
+    ],
+    "props": {
+      "width": "40%"
+    }
   },
   "rich-text#payment-methods":{
     "props": {
-      "text": "![Métodos de Pagamento](https://festaexpress.vteximg.com.br/arquivos/payment-methods.png 'Métodos de Pagamento')"
+      "text": "![Métodos de Pagamento](https://festaexpress.vteximg.com.br/arquivos/payment-methods-h.png 'Métodos de Pagamento')"
     }
   },
   "rich-text#titulo4": {
     "props": {
-      "text": "##### Redes Sociais"
+      "text": "Redes Sociais",
+      "blockClass": "footer-title"
     }
   },
-  "flex-layout.col#footer-4-desktop":{
+  "flex-layout.row#newsletter":{
     "children":[
       "newsletter"
-    ]
+    ],
+    "props":{
+      "blockClass":"newsletter"
+    }
   },
-
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "flex-layout.col#footer-6-desktop",
-      "flex-layout.col#footer-7-desktop"
+      "rich-text#info-store"
+    ],
+    "props":{
+      "blockClass":"inverted"
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "rich-text#copyright"
     ],
     "props":{
       "blockClass":"inverted"
@@ -120,7 +161,8 @@
   },
   "rich-text#social":{
     "props": {
-      "text": "Redes Sociais"
+      "text": "Redes Sociais",
+      "blockClass": "footer-title"
     }
   },
   
@@ -147,30 +189,19 @@
     }
   },
 
-  "flex-layout.col#footer-6-desktop":{
-    "children": [
-      "rich-text#footer"
-    ]
-  },
-  "flex-layout.col#footer-7-desktop":{
-    "children": [
-      "rich-text#vtex"
-    ]
-  },
-  "rich-text#footer": {
+  "rich-text#info-store": {
     "props": {
-      "text": "GMR - NOVA ERA ARTIGOS PARA FESTA EIRELI / CNPJ 07.609.208/0001-51<br>Av. Das Cerejeiras, 545 - Vila Maria, São Paulo - SP - CEP: 02124-000<br>Preços e condições de pagamento exclusivos para compras via internet. / 2008-2019"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu felis sed purus iaculis aliquam quis vel est. Aliquam tincidunt aliquam imperdiet. Integer sapien libero, condimentum ut porttitor a, fermentum eu sapien. Praesent tincidunt nisl elit, quis tincidunt urna tempus vestibulum. Sed eu nibh nibh. Suspendisse in viverra ligula. Praesent ornare ac urna vel volutpat. Quisque luctus ex eget erat venenatis feugiat. Quisque at nisl lobortis, bibendum odio in, feugiat augue. Morbi ex sem, malesuada aliquam massa sed, volutpat porttitor augue. Pellentesque tristique vitae velit vel pellentesque.",
+      "textAlignment": "LEFT",
+      "blockClass": "info-store"
     }
   },
-  "rich-text#vtex": {
+  "rich-text#copyright": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "RIGHT",
-      "text": "[![VTEX](https://festaexpress.vteximg.com.br/arquivos/vtex-white.png 'VTEX')](https://vtex.com/)",
-      "blockClass":"logo-vtex"
+      "text": "GMR - NOVA ERA ARTIGOS PARA FESTA EIRELI / CNPJ 07.609.208/0001-51 | Av. Das Cerejeiras, 545 - Vila Maria, São Paulo - SP - CEP: 02124-000 | Preços e condições de pagamento exclusivos para compras via internet. | 2008-2019",
+      "textAlignment": "CENTER"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -205,7 +236,8 @@
   },
   "flex-layout.col#footer-2-mobile":{
     "children": [
-      "rich-text#footer",
+      "rich-text#info-store",
+      "rich-text#copyright",
       "rich-text#vtex"
     ]
   }

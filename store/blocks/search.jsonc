@@ -11,7 +11,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -22,7 +22,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -33,7 +33,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -44,7 +44,7 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 20
       }
     }
   },
