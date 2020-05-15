@@ -200,5 +200,21 @@
     "props": {
       "sticky": true
     }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"],
+    "props": {
+      "maxSuggestedProducts": "5",
+      "autocompleteWidth": "95"
+    }
+  },
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
+
 }

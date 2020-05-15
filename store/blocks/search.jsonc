@@ -110,6 +110,9 @@
 
   "flex-layout.col#content": {
     "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
       "flex-layout.row#banners-dpt-principal",
       "rich-text#title-one",
       "flex-layout.row#dpt-banners-one",
@@ -129,6 +132,22 @@
     ],
     "props": {
       "width": "grow"
+    }
+  },
+  "flex-layout.row#did-you-mean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "bannerSearch",
+      "horizontalAlignment": "center"
     }
   },
   "flex-layout.row#banners-dpt-principal":{
@@ -822,6 +841,9 @@
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
       "flex-layout.row#banners-dpt-principal",
       "rich-text#title-one",
       "flex-layout.row#dpt-banners-one",
