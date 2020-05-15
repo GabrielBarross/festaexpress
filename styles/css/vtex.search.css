@@ -1,0 +1,37 @@
+@media only screen and (max-width: 639px) {
+    .biggy-autocomplete-wrapper{
+        max-width: 95vw;
+        margin-top: 1px;
+    }
+}
+@media only screen and (min-width: 640px) {
+    .biggy-autocomplete-wrapper{
+        position: absolute;
+        top: 13px;
+        left: -480px;
+        max-width: 1076px;
+    }
+    .itemList--suggestion{
+        max-width: 220px;
+    }
+    .tileList, .tileListItem{
+        padding: 0 .2rem;
+    }
+    .tileListItem :global(.vtex-product-summary-2-x-element){
+        padding: 0;
+    }
+    .tileListItem :global(.vtex-product-summary-2-x-productBrand){
+        line-height: 18px;
+        max-height: 56px;
+        overflow: hidden;
+    }
+    .tileListSeeMore{
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        transition: .2s;
+    }
+    .tileListSeeMore:hover{
+        color: #7e3b99;
+    }
+}

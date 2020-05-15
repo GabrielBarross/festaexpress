@@ -834,7 +834,6 @@
       "flex-layout.row#theme-banners-three",
       "flex-layout.row#theme-banners-four",
       "flex-layout.row#banners-text-bottom",
-
       "flex-layout.row#contentmobile"
     ],
     "props": {

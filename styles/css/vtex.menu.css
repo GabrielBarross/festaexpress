@@ -118,6 +118,27 @@
     border-bottom:0;
     background:#fff;
 }
+@media only screen and (max-width: 640px) {
+    .menuContainerNav--category-menu{
+        max-width: 100%;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .menuContainerNav--category-menu:global(::-webkit-scrollbar) {
+        height: 4px;
+    }
+    .menuContainerNav--category-menu:global(::-webkit-scrollbar-track) {
+        background: #f1f1f1; 
+    }
+    .menuContainerNav--category-menu:global(::-webkit-scrollbar-thumb) {
+        background: #7e3b99;
+        border-radius: 10px;
+    }
+    .submenuContainer{
+        display: none!important;
+    }
+}
+
 @media only screen and (max-width: 1025px) {
     .menuContainer--category-menu-mobile .menuItem .styledLinkContainer .styledLink{
         color:#000;

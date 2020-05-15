@@ -11,6 +11,7 @@
 }
 .flexRow--deals :global(.vtex-store-components-3-x-imageElement){
   max-height: 50px!important;
+  width: auto;
 }
 .flexRow--product-content{
   max-width: 1140px;
@@ -44,6 +45,9 @@
 .flexColChild--banner-mosaico{
   overflow: hidden;
   margin:10px;
+}
+.flexRow--mosaic-mobile .stretchChildrenWidth{
+  margin-bottom: .5rem;
 }
 .flexRow--deals .flexCol {
   align-items: center;
@@ -80,7 +84,25 @@
   width: 20%;
 }
 @media only screen and (max-width: 640px) {
-  .flexRow--deals {
-    display:none;
+  .flexRow--deals .stretchChildrenWidth{
+    display: inline-block;
+    width: 50% !important;
+    white-space: break-spaces;
+    padding: .5rem 1rem;
+  }
+  .flexRowContent--deals{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .flexRowContent--deals:global(::-webkit-scrollbar) {
+      height: 4px;
+  }
+  .flexRowContent--deals:global(::-webkit-scrollbar-track) {
+      background: #74b302; 
+  }
+  .flexRowContent--deals:global(::-webkit-scrollbar-thumb) {
+      background: #9cea0a;
+      border-radius: 10px;
   }
 }

@@ -57,7 +57,7 @@
         "scroll": "BY_PAGE",
         "arrows": true,
         "gap": "ph3",
-        "titleText": "Lanaçamento"
+        "titleText": "Lançamento"
       }
     }
   },
@@ -166,8 +166,16 @@
   },
   "responsive-layout.mobile#mosaic": {
     "children": [
-      "slider-layout#mosaico-mobile"
+      "flex-layout.row#banner-mosaico-mobile"
     ]
+  },
+  "flex-layout.row#banner-mosaico-mobile": {
+    "children": [
+      "image#image-mosaico-1", "image#image-mosaico-2", "image#image-mosaico-3", "image#image-mosaico-4", "image#image-mosaico-5", "image#image-mosaico-6"
+    ],
+    "props": {
+      "blockClass": "mosaic-mobile"
+    }
   },
   "slider-layout#mosaico-mobile": {
     "children": ["image#image-mosaico-1", "image#image-mosaico-2", "image#image-mosaico-3", "image#image-mosaico-4", "image#image-mosaico-5", "image#image-mosaico-6"],
