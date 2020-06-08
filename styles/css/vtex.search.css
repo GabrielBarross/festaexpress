@@ -8,8 +8,8 @@
     .biggy-autocomplete-wrapper{
         position: absolute;
         top: 13px;
-        left: -480px;
-        max-width: 1076px;
+        left: -880px;
+        max-width: 1130px;
     }
     .itemList--suggestion{
         max-width: 220px;

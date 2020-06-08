@@ -101,10 +101,10 @@
   },
   "header-row#3-desktop": {
     "children": [
-      "search-bar",
-      "minicart",
       "rich-text#teltop",
-      "rich-text#loja-fisica"
+      "rich-text#loja-fisica",
+      "search-bar",
+      "minicart"
     ],
     "props": {
       "inverted":true,
