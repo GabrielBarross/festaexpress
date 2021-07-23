@@ -3,7 +3,7 @@
   "name": "festa-express-theme",
   "version": "0.0.59",
   "builders": {
-    "styles": "1.x",
+    "styles": "2.x",
     "store": "0.x"
   },
   "mustUpdateAt": "2018-09-05",

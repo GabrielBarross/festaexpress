@@ -60,9 +60,9 @@
   min-width: 230px;
 }
 
-.flexCol--order-page div:global(.mv9.flex.flex-column.b--muted-4.ba.br3.bw1){
+/*.flexCol--order-page :global(.bw1){
 	display:none;
-}
+} */
 
 .flexCol--productCountCol {
   align-items: flex-start;
@@ -95,14 +95,15 @@
     overflow-x: scroll;
     white-space: nowrap;
   }
-  .flexRowContent--deals:global(::-webkit-scrollbar) {
+/*  .flexRowContent--deals :global(::-webkit-scrollbar) {
       height: 4px;
-  }
-  .flexRowContent--deals:global(::-webkit-scrollbar-track) {
+  } 
+  .flexRowContent--deals :global(::-webkit-scrollbar-track) {
       background: #74b302; 
   }
-  .flexRowContent--deals:global(::-webkit-scrollbar-thumb) {
+  .flexRowContent--deals :global(::-webkit-scrollbar-thumb) {
       background: #9cea0a;
       border-radius: 10px;
   }
+  */
 }

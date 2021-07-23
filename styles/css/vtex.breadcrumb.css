@@ -5,10 +5,10 @@
     text-align: right;
     padding: 0;
 }
-.arrow--breadcrumb-link:nth-last-child(3){
+.arrow--breadcrumb-link::nth-last-child(3){
     display: inline-block;
 }
-.arrow--breadcrumb-link:nth-last-child(3) .link{
+.arrow--breadcrumb-link::nth-last-child(3) .link{
     display: inline-block;
     background-color: #89309e;
     font-size: .9rem;
@@ -17,12 +17,12 @@
     padding: .2rem 1rem;
     border-radius: 50px;
 }
-.arrow--breadcrumb-link:nth-last-child(3) .link::before{
+.arrow--breadcrumb-link::nth-last-child(3) .link::before{
     content: "Ver mais produto";
     font-weight: normal;
     margin-right: .3rem;
 }
-.arrow--breadcrumb-link:nth-last-child(3) .link::after{
+.arrow--breadcrumb-link::nth-last-child(3) .link::after{
     content: "[+]";
     font-weight: normal;
     margin-left: .3rem;
