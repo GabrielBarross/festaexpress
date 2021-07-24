@@ -4,6 +4,11 @@
     background-repeat: no-repeat;
     margin-right:-2rem;
  }
+
+ .container :global(.vtex-button){
+    width: 180px;
+    background: transparent;
+ } 
  .badge{
     font-size: 15px;
     background-color: transparent;
