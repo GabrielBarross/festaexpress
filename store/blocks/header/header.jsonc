@@ -166,6 +166,13 @@
       "vtex.menu@2.x:menu#category-menu"
     ]
   },
+  "image#contact-mobile-whatsapp":{
+    "props":{
+      "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/dfa41a68-89bc-4b93-b7c3-118e97894467___e68b22d….png",
+      "link":"https://wa.me/5511984362571",
+      "blockClass":"btn-wpp-mobile"
+    }
+  },   
   "header-row#mobile-menu-icon": {
     "children": [
       "vtex.menu@2.x:menu#category-menu"
@@ -181,7 +188,8 @@
       "logo#mobile",
       "header-spacer",
       "login",
-      "minicart"
+      "minicart",
+      "image#contact-mobile-whatsapp"
     ],
     "props": {
       "sticky": true,

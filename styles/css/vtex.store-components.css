@@ -124,6 +124,17 @@
   .imageElement{
     width:100%;
   }
+  .imageElement--btn-wpp-mobile{
+    position: fixed;
+    bottom: 7em;
+    right: 3em;
+    max-width: 150px !important;
+    width: 5em;
+    border-radius: 100px;
+    border: 10px solid #65cf72;
+    background: #65cf72;
+    box-shadow: 0 0 10px #ccc;    
+  }
 }
 @media only screen and (min-width: 640px) {
   .searchBarContainer{
